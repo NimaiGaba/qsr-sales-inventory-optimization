@@ -1,0 +1,7 @@
+SupplierID,SupplierName,CategorySupplied,LeadTimeDays,ReliabilityScore
+SUP-01,Valley Dairy & Cheese Co.,Dairy,2,0.96
+SUP-02,Golden Grain Flour Mills,Dry Goods & Flour,4,0.98
+SUP-03,Prime Meats & Sausage Wholesale,Proteins,2,0.94
+SUP-04,FarmFresh Produce Direct,Fresh Produce,1,0.91
+SUP-05,Apex Beverage Distributors,Beverages & Syrups,3,0.97
+SUP-06,EcoPack Container Solutions,Packaging & Disposables,5,0.95

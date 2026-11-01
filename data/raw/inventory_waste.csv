@@ -1,0 +1,1095 @@
+WasteID,WasteDate,LocationID,InventoryID,ItemName,Category,QuantityWasted,Unit,UnitCost,WasteCost,Reason
+WST-000001,2024-01-01,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.78,kg,7.5,35.85,Preparation Trim/Spillage
+WST-000002,2024-01-01,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.8,kg,7.5,13.5,Preparation Trim/Spillage
+WST-000003,2024-01-02,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.98,kg,4.8,23.9,Expired Shelf-Life
+WST-000004,2024-01-02,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,4.96,kg,0.85,4.22,Overcooked/Burnt
+WST-000005,2024-01-02,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.5,kg,7.5,26.25,Preparation Trim/Spillage
+WST-000006,2024-01-02,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.31,cases,14.5,47.99,Preparation Trim/Spillage
+WST-000007,2024-01-03,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,4.3,kg,2.4,10.32,Overcooked/Burnt
+WST-000008,2024-01-03,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,1.51,kg,2.4,3.62,Preparation Trim/Spillage
+WST-000009,2024-01-03,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,3.26,kg,2.4,7.82,Preparation Trim/Spillage
+WST-000010,2024-01-04,LOC-03,INV-002,Shredded Provolone,Dairy,5.29,kg,7.1,37.56,Expired Shelf-Life
+WST-000011,2024-01-04,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.11,kg,7.5,23.32,Expired Shelf-Life
+WST-000012,2024-01-04,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,4.61,kg,3.2,14.75,Preparation Trim/Spillage
+WST-000013,2024-01-04,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.39,kg,4.8,16.27,Expired Shelf-Life
+WST-000014,2024-01-05,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.54,kg,12.0,30.48,Overcooked/Burnt
+WST-000015,2024-01-05,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.77,kg,12.0,57.24,Expired Shelf-Life
+WST-000016,2024-01-06,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,1.56,kg,2.4,3.74,Expired Shelf-Life
+WST-000017,2024-01-06,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,1.73,kg,3.2,5.54,Drop/Damaged Handling
+WST-000018,2024-01-06,LOC-03,INV-002,Shredded Provolone,Dairy,5.04,kg,7.1,35.78,Drop/Damaged Handling
+WST-000019,2024-01-07,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,2.42,kg,3.2,7.74,Expired Shelf-Life
+WST-000020,2024-01-07,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.93,kg,7.5,29.48,Drop/Damaged Handling
+WST-000021,2024-01-08,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,4.36,kg,8.9,38.8,Preparation Trim/Spillage
+WST-000022,2024-01-08,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.86,kg,4.8,13.73,Overcooked/Burnt
+WST-000023,2024-01-08,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.47,kg,7.5,11.03,Expired Shelf-Life
+WST-000024,2024-01-09,LOC-04,INV-016,Fresh Romaine Hearts,Produce,2.37,cases,14.5,34.37,Expired Shelf-Life
+WST-000025,2024-01-09,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.66,kg,2.4,8.78,Expired Shelf-Life
+WST-000026,2024-01-09,LOC-03,INV-017,Fresh Genovese Basil,Produce,3.74,kg,12.0,44.88,Expired Shelf-Life
+WST-000027,2024-01-09,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.82,kg,6.2,11.28,Preparation Trim/Spillage
+WST-000028,2024-01-10,LOC-01,INV-002,Shredded Provolone,Dairy,4.6,kg,7.1,32.66,Overcooked/Burnt
+WST-000029,2024-01-10,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,3.17,kg,8.9,28.21,Expired Shelf-Life
+WST-000030,2024-01-10,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.88,kg,4.8,9.02,Expired Shelf-Life
+WST-000031,2024-01-10,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,2.31,kg,8.9,20.56,Drop/Damaged Handling
+WST-000032,2024-01-11,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,5.08,kg,2.4,12.19,Expired Shelf-Life
+WST-000033,2024-01-11,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,1.54,kg,0.85,1.31,Drop/Damaged Handling
+WST-000034,2024-01-11,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.01,kg,4.8,24.05,Drop/Damaged Handling
+WST-000035,2024-01-11,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.51,kg,7.5,33.82,Overcooked/Burnt
+WST-000036,2024-01-12,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.86,kg,2.4,6.86,Overcooked/Burnt
+WST-000037,2024-01-12,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,5.12,kg,8.9,45.57,Preparation Trim/Spillage
+WST-000038,2024-01-13,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.34,kg,4.8,16.03,Expired Shelf-Life
+WST-000039,2024-01-13,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.84,kg,7.5,13.8,Overcooked/Burnt
+WST-000040,2024-01-14,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.44,kg,3.2,17.41,Preparation Trim/Spillage
+WST-000041,2024-01-14,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.18,kg,8.9,28.3,Overcooked/Burnt
+WST-000042,2024-01-14,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.96,kg,3.2,12.67,Overcooked/Burnt
+WST-000043,2024-01-15,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.46,kg,7.5,10.95,Preparation Trim/Spillage
+WST-000044,2024-01-15,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.64,kg,6.2,10.17,Expired Shelf-Life
+WST-000045,2024-01-15,LOC-01,INV-002,Shredded Provolone,Dairy,5.12,kg,7.1,36.35,Overcooked/Burnt
+WST-000046,2024-01-15,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.29,kg,3.2,4.13,Overcooked/Burnt
+WST-000047,2024-01-16,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.25,kg,7.5,24.38,Preparation Trim/Spillage
+WST-000048,2024-01-16,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.23,kg,8.9,28.75,Expired Shelf-Life
+WST-000049,2024-01-17,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,1.73,kg,2.4,4.15,Overcooked/Burnt
+WST-000050,2024-01-17,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.93,kg,12.0,59.16,Preparation Trim/Spillage
+WST-000051,2024-01-17,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.31,kg,3.2,16.99,Expired Shelf-Life
+WST-000052,2024-01-17,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.18,kg,2.4,5.23,Preparation Trim/Spillage
+WST-000053,2024-01-18,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.76,kg,12.0,33.12,Expired Shelf-Life
+WST-000054,2024-01-18,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.54,kg,2.4,3.7,Expired Shelf-Life
+WST-000055,2024-01-19,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.13,kg,2.4,5.11,Preparation Trim/Spillage
+WST-000056,2024-01-19,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.31,kg,7.5,32.32,Expired Shelf-Life
+WST-000057,2024-01-19,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.99,kg,2.4,7.18,Expired Shelf-Life
+WST-000058,2024-01-19,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.49,kg,12.0,65.88,Preparation Trim/Spillage
+WST-000059,2024-01-20,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,3.15,kg,0.85,2.68,Expired Shelf-Life
+WST-000060,2024-01-20,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,1.83,kg,8.9,16.29,Preparation Trim/Spillage
+WST-000061,2024-01-20,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.67,kg,6.2,22.75,Drop/Damaged Handling
+WST-000062,2024-01-21,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.91,kg,3.2,6.11,Preparation Trim/Spillage
+WST-000063,2024-01-21,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.64,kg,2.4,11.14,Expired Shelf-Life
+WST-000064,2024-01-21,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.11,kg,2.4,5.06,Overcooked/Burnt
+WST-000065,2024-01-21,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.5,kg,0.85,3.82,Preparation Trim/Spillage
+WST-000066,2024-01-22,LOC-03,INV-002,Shredded Provolone,Dairy,5.28,kg,7.1,37.49,Overcooked/Burnt
+WST-000067,2024-01-22,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.17,kg,3.2,16.54,Preparation Trim/Spillage
+WST-000068,2024-01-22,LOC-04,INV-002,Shredded Provolone,Dairy,3.07,kg,7.1,21.8,Overcooked/Burnt
+WST-000069,2024-01-23,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,4.6,kg,8.9,40.94,Expired Shelf-Life
+WST-000070,2024-01-23,LOC-02,INV-017,Fresh Genovese Basil,Produce,5.12,kg,12.0,61.44,Preparation Trim/Spillage
+WST-000071,2024-01-23,LOC-04,INV-002,Shredded Provolone,Dairy,3.35,kg,7.1,23.79,Expired Shelf-Life
+WST-000072,2024-01-24,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.72,kg,0.85,4.01,Preparation Trim/Spillage
+WST-000073,2024-01-24,LOC-03,INV-017,Fresh Genovese Basil,Produce,1.5,kg,12.0,18.0,Drop/Damaged Handling
+WST-000074,2024-01-25,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.25,kg,3.2,13.6,Expired Shelf-Life
+WST-000075,2024-01-25,LOC-01,INV-017,Fresh Genovese Basil,Produce,4.57,kg,12.0,54.84,Overcooked/Burnt
+WST-000076,2024-01-25,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.65,kg,6.2,10.23,Overcooked/Burnt
+WST-000077,2024-01-26,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,3.67,kg,0.85,3.12,Expired Shelf-Life
+WST-000078,2024-01-26,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,2.52,kg,0.85,2.14,Preparation Trim/Spillage
+WST-000079,2024-01-26,LOC-01,INV-002,Shredded Provolone,Dairy,4.43,kg,7.1,31.45,Overcooked/Burnt
+WST-000080,2024-01-27,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.9,kg,6.2,17.98,Expired Shelf-Life
+WST-000081,2024-01-27,LOC-03,INV-002,Shredded Provolone,Dairy,2.95,kg,7.1,20.95,Drop/Damaged Handling
+WST-000082,2024-01-28,LOC-03,INV-017,Fresh Genovese Basil,Produce,3.67,kg,12.0,44.04,Preparation Trim/Spillage
+WST-000083,2024-01-28,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,4.53,kg,2.4,10.87,Preparation Trim/Spillage
+WST-000084,2024-01-28,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.48,kg,6.2,21.58,Expired Shelf-Life
+WST-000085,2024-01-29,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.44,kg,6.2,27.53,Drop/Damaged Handling
+WST-000086,2024-01-29,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.44,kg,7.5,33.3,Drop/Damaged Handling
+WST-000087,2024-01-29,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.39,kg,8.9,30.17,Expired Shelf-Life
+WST-000088,2024-01-29,LOC-04,INV-002,Shredded Provolone,Dairy,5.39,kg,7.1,38.27,Drop/Damaged Handling
+WST-000089,2024-01-30,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,5.34,kg,3.2,17.09,Drop/Damaged Handling
+WST-000090,2024-01-30,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.45,kg,2.4,5.88,Expired Shelf-Life
+WST-000091,2024-01-30,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.48,kg,6.2,27.78,Drop/Damaged Handling
+WST-000092,2024-01-30,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.26,kg,4.8,6.05,Expired Shelf-Life
+WST-000093,2024-01-31,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.5,kg,8.9,31.15,Expired Shelf-Life
+WST-000094,2024-01-31,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.85,kg,12.0,22.2,Expired Shelf-Life
+WST-000095,2024-02-01,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,5.06,kg,8.9,45.03,Expired Shelf-Life
+WST-000096,2024-02-01,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,4.48,kg,0.85,3.81,Drop/Damaged Handling
+WST-000097,2024-02-02,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.58,kg,7.5,26.85,Overcooked/Burnt
+WST-000098,2024-02-02,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.83,kg,2.4,6.79,Preparation Trim/Spillage
+WST-000099,2024-02-02,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.49,kg,4.8,11.95,Expired Shelf-Life
+WST-000100,2024-02-02,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.24,kg,8.9,19.94,Overcooked/Burnt
+WST-000101,2024-02-03,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.31,kg,2.4,5.54,Overcooked/Burnt
+WST-000102,2024-02-03,LOC-02,INV-017,Fresh Genovese Basil,Produce,4.89,kg,12.0,58.68,Overcooked/Burnt
+WST-000103,2024-02-03,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.07,kg,4.8,24.34,Preparation Trim/Spillage
+WST-000104,2024-02-03,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.53,kg,7.5,26.47,Expired Shelf-Life
+WST-000105,2024-02-04,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.56,kg,0.85,1.33,Expired Shelf-Life
+WST-000106,2024-02-04,LOC-04,INV-002,Shredded Provolone,Dairy,4.05,kg,7.1,28.75,Preparation Trim/Spillage
+WST-000107,2024-02-04,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.85,kg,6.2,23.87,Expired Shelf-Life
+WST-000108,2024-02-05,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.34,kg,2.4,3.22,Drop/Damaged Handling
+WST-000109,2024-02-05,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.35,kg,7.5,40.12,Preparation Trim/Spillage
+WST-000110,2024-02-05,LOC-03,INV-002,Shredded Provolone,Dairy,2.42,kg,7.1,17.18,Expired Shelf-Life
+WST-000111,2024-02-05,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.57,kg,4.8,21.94,Expired Shelf-Life
+WST-000112,2024-02-06,LOC-03,INV-002,Shredded Provolone,Dairy,4.5,kg,7.1,31.95,Preparation Trim/Spillage
+WST-000113,2024-02-06,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,2.57,kg,3.2,8.22,Drop/Damaged Handling
+WST-000114,2024-02-07,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,3.03,kg,2.4,7.27,Expired Shelf-Life
+WST-000115,2024-02-07,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.99,kg,12.0,23.88,Preparation Trim/Spillage
+WST-000116,2024-02-07,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.41,kg,2.4,8.18,Expired Shelf-Life
+WST-000117,2024-02-07,LOC-01,INV-016,Fresh Romaine Hearts,Produce,2.25,cases,14.5,32.62,Overcooked/Burnt
+WST-000118,2024-02-08,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.85,kg,2.4,6.84,Overcooked/Burnt
+WST-000119,2024-02-08,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.84,kg,6.2,23.81,Expired Shelf-Life
+WST-000120,2024-02-09,LOC-02,INV-002,Shredded Provolone,Dairy,2.22,kg,7.1,15.76,Preparation Trim/Spillage
+WST-000121,2024-02-09,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.01,kg,6.2,31.06,Overcooked/Burnt
+WST-000122,2024-02-10,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.99,cases,14.5,43.36,Expired Shelf-Life
+WST-000123,2024-02-10,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.86,kg,6.2,23.93,Drop/Damaged Handling
+WST-000124,2024-02-11,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,2.12,kg,0.85,1.8,Overcooked/Burnt
+WST-000125,2024-02-11,LOC-04,INV-002,Shredded Provolone,Dairy,3.42,kg,7.1,24.28,Preparation Trim/Spillage
+WST-000126,2024-02-12,LOC-04,INV-016,Fresh Romaine Hearts,Produce,5.37,cases,14.5,77.86,Expired Shelf-Life
+WST-000127,2024-02-12,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.42,kg,6.2,8.8,Expired Shelf-Life
+WST-000128,2024-02-12,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.41,kg,3.2,10.91,Overcooked/Burnt
+WST-000129,2024-02-12,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,2.76,kg,8.9,24.56,Drop/Damaged Handling
+WST-000130,2024-02-13,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.68,kg,8.9,14.95,Drop/Damaged Handling
+WST-000131,2024-02-13,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.39,kg,6.2,21.02,Preparation Trim/Spillage
+WST-000132,2024-02-13,LOC-02,INV-016,Fresh Romaine Hearts,Produce,2.36,cases,14.5,34.22,Expired Shelf-Life
+WST-000133,2024-02-13,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.38,kg,3.2,17.22,Preparation Trim/Spillage
+WST-000134,2024-02-14,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.36,kg,6.2,33.23,Expired Shelf-Life
+WST-000135,2024-02-14,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,3.28,kg,0.85,2.79,Overcooked/Burnt
+WST-000136,2024-02-14,LOC-03,INV-002,Shredded Provolone,Dairy,5.03,kg,7.1,35.71,Expired Shelf-Life
+WST-000137,2024-02-15,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.06,kg,4.8,9.89,Drop/Damaged Handling
+WST-000138,2024-02-15,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.15,kg,8.9,19.14,Overcooked/Burnt
+WST-000139,2024-02-16,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.22,kg,7.5,39.15,Expired Shelf-Life
+WST-000140,2024-02-16,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.56,kg,7.5,26.7,Overcooked/Burnt
+WST-000141,2024-02-17,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.3,kg,7.5,24.75,Expired Shelf-Life
+WST-000142,2024-02-17,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.09,kg,4.8,19.63,Expired Shelf-Life
+WST-000143,2024-02-17,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.02,kg,7.5,15.15,Expired Shelf-Life
+WST-000144,2024-02-18,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.43,kg,4.8,16.46,Expired Shelf-Life
+WST-000145,2024-02-18,LOC-02,INV-002,Shredded Provolone,Dairy,2.16,kg,7.1,15.34,Preparation Trim/Spillage
+WST-000146,2024-02-19,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.2,kg,8.9,28.48,Expired Shelf-Life
+WST-000147,2024-02-19,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,1.76,kg,3.2,5.63,Preparation Trim/Spillage
+WST-000148,2024-02-19,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.59,kg,7.5,34.42,Preparation Trim/Spillage
+WST-000149,2024-02-20,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.19,kg,7.5,38.93,Preparation Trim/Spillage
+WST-000150,2024-02-20,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.55,kg,7.5,11.62,Expired Shelf-Life
+WST-000151,2024-02-20,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,5.43,kg,8.9,48.33,Expired Shelf-Life
+WST-000152,2024-02-20,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.18,kg,3.2,16.58,Overcooked/Burnt
+WST-000153,2024-02-21,LOC-02,INV-002,Shredded Provolone,Dairy,3.65,kg,7.1,25.91,Expired Shelf-Life
+WST-000154,2024-02-21,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.86,kg,6.2,11.53,Overcooked/Burnt
+WST-000155,2024-02-21,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.06,kg,7.5,15.45,Preparation Trim/Spillage
+WST-000156,2024-02-21,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.01,kg,6.2,12.46,Expired Shelf-Life
+WST-000157,2024-02-22,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,1.33,kg,0.85,1.13,Preparation Trim/Spillage
+WST-000158,2024-02-22,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.02,cases,14.5,29.29,Preparation Trim/Spillage
+WST-000159,2024-02-22,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.87,cases,14.5,70.61,Drop/Damaged Handling
+WST-000160,2024-02-23,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,3.26,kg,0.85,2.77,Expired Shelf-Life
+WST-000161,2024-02-23,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,1.47,kg,0.85,1.25,Overcooked/Burnt
+WST-000162,2024-02-23,LOC-01,INV-017,Fresh Genovese Basil,Produce,4.11,kg,12.0,49.32,Expired Shelf-Life
+WST-000163,2024-02-24,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.67,kg,4.8,12.82,Expired Shelf-Life
+WST-000164,2024-02-24,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.31,kg,7.5,39.82,Expired Shelf-Life
+WST-000165,2024-02-24,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.18,kg,6.2,13.52,Drop/Damaged Handling
+WST-000166,2024-02-25,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,1.65,kg,3.2,5.28,Expired Shelf-Life
+WST-000167,2024-02-25,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.5,kg,2.4,10.8,Drop/Damaged Handling
+WST-000168,2024-02-25,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.29,kg,12.0,15.48,Preparation Trim/Spillage
+WST-000169,2024-02-25,LOC-01,INV-016,Fresh Romaine Hearts,Produce,5.41,cases,14.5,78.45,Drop/Damaged Handling
+WST-000170,2024-02-26,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.93,kg,3.2,12.58,Overcooked/Burnt
+WST-000171,2024-02-26,LOC-02,INV-017,Fresh Genovese Basil,Produce,4.72,kg,12.0,56.64,Expired Shelf-Life
+WST-000172,2024-02-27,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.55,kg,7.5,26.62,Expired Shelf-Life
+WST-000173,2024-02-27,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.7,cases,14.5,53.65,Overcooked/Burnt
+WST-000174,2024-02-27,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.86,kg,8.9,25.45,Overcooked/Burnt
+WST-000175,2024-02-27,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.01,kg,3.2,16.03,Expired Shelf-Life
+WST-000176,2024-02-28,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.43,kg,12.0,65.16,Drop/Damaged Handling
+WST-000177,2024-02-28,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,3.86,kg,2.4,9.26,Preparation Trim/Spillage
+WST-000178,2024-02-29,LOC-02,INV-002,Shredded Provolone,Dairy,2.34,kg,7.1,16.61,Preparation Trim/Spillage
+WST-000179,2024-02-29,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.77,cases,14.5,25.66,Preparation Trim/Spillage
+WST-000180,2024-02-29,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.83,kg,6.2,29.95,Expired Shelf-Life
+WST-000181,2024-03-01,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.7,cases,14.5,68.15,Expired Shelf-Life
+WST-000182,2024-03-01,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.96,kg,4.8,19.01,Expired Shelf-Life
+WST-000183,2024-03-02,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.59,kg,7.5,11.93,Overcooked/Burnt
+WST-000184,2024-03-02,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.37,kg,4.8,6.58,Preparation Trim/Spillage
+WST-000185,2024-03-02,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.31,kg,6.2,20.52,Overcooked/Burnt
+WST-000186,2024-03-03,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.79,kg,2.4,6.7,Overcooked/Burnt
+WST-000187,2024-03-03,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,5.19,kg,2.4,12.46,Expired Shelf-Life
+WST-000188,2024-03-04,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.27,kg,3.2,7.26,Drop/Damaged Handling
+WST-000189,2024-03-04,LOC-03,INV-002,Shredded Provolone,Dairy,3.06,kg,7.1,21.73,Expired Shelf-Life
+WST-000190,2024-03-04,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,5.49,kg,3.2,17.57,Expired Shelf-Life
+WST-000191,2024-03-04,LOC-01,INV-002,Shredded Provolone,Dairy,1.2,kg,7.1,8.52,Expired Shelf-Life
+WST-000192,2024-03-05,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.92,kg,4.8,23.62,Preparation Trim/Spillage
+WST-000193,2024-03-05,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.88,kg,7.5,36.6,Preparation Trim/Spillage
+WST-000194,2024-03-06,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.42,kg,3.2,7.74,Expired Shelf-Life
+WST-000195,2024-03-06,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.46,kg,7.5,18.45,Expired Shelf-Life
+WST-000196,2024-03-07,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,4.9,kg,0.85,4.17,Overcooked/Burnt
+WST-000197,2024-03-07,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.33,kg,8.9,38.54,Preparation Trim/Spillage
+WST-000198,2024-03-07,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.01,kg,12.0,60.12,Expired Shelf-Life
+WST-000199,2024-03-07,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.66,kg,4.8,22.37,Expired Shelf-Life
+WST-000200,2024-03-08,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.01,kg,4.8,24.05,Preparation Trim/Spillage
+WST-000201,2024-03-08,LOC-01,INV-016,Fresh Romaine Hearts,Produce,5.15,cases,14.5,74.68,Preparation Trim/Spillage
+WST-000202,2024-03-08,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.02,kg,4.8,14.5,Preparation Trim/Spillage
+WST-000203,2024-03-08,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.34,kg,4.8,25.63,Preparation Trim/Spillage
+WST-000204,2024-03-09,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.21,kg,12.0,50.52,Expired Shelf-Life
+WST-000205,2024-03-09,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.91,kg,8.9,25.9,Preparation Trim/Spillage
+WST-000206,2024-03-09,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.14,kg,7.5,38.55,Drop/Damaged Handling
+WST-000207,2024-03-10,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,4.91,kg,8.9,43.7,Expired Shelf-Life
+WST-000208,2024-03-10,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.37,kg,12.0,16.44,Overcooked/Burnt
+WST-000209,2024-03-10,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.21,kg,6.2,19.9,Expired Shelf-Life
+WST-000210,2024-03-11,LOC-04,INV-017,Fresh Genovese Basil,Produce,3.69,kg,12.0,44.28,Expired Shelf-Life
+WST-000211,2024-03-11,LOC-03,INV-002,Shredded Provolone,Dairy,2.0,kg,7.1,14.2,Overcooked/Burnt
+WST-000212,2024-03-12,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.87,kg,8.9,16.64,Expired Shelf-Life
+WST-000213,2024-03-12,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.81,kg,7.5,28.57,Expired Shelf-Life
+WST-000214,2024-03-12,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.92,kg,6.2,30.5,Expired Shelf-Life
+WST-000215,2024-03-12,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.55,kg,6.2,15.81,Preparation Trim/Spillage
+WST-000216,2024-03-13,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.1,kg,8.9,27.59,Drop/Damaged Handling
+WST-000217,2024-03-13,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.47,kg,7.5,18.53,Expired Shelf-Life
+WST-000218,2024-03-13,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.38,kg,7.5,17.85,Expired Shelf-Life
+WST-000219,2024-03-13,LOC-01,INV-016,Fresh Romaine Hearts,Produce,2.79,cases,14.5,40.45,Drop/Damaged Handling
+WST-000220,2024-03-14,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,5.31,kg,3.2,16.99,Overcooked/Burnt
+WST-000221,2024-03-14,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.58,kg,8.9,40.76,Preparation Trim/Spillage
+WST-000222,2024-03-15,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.86,kg,12.0,34.32,Preparation Trim/Spillage
+WST-000223,2024-03-15,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.16,kg,0.85,1.84,Expired Shelf-Life
+WST-000224,2024-03-15,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,1.27,kg,2.4,3.05,Expired Shelf-Life
+WST-000225,2024-03-16,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.69,kg,2.4,8.86,Expired Shelf-Life
+WST-000226,2024-03-16,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.18,kg,3.2,16.58,Drop/Damaged Handling
+WST-000227,2024-03-17,LOC-01,INV-002,Shredded Provolone,Dairy,1.82,kg,7.1,12.92,Drop/Damaged Handling
+WST-000228,2024-03-17,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,1.45,kg,0.85,1.23,Expired Shelf-Life
+WST-000229,2024-03-17,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.63,kg,12.0,19.56,Overcooked/Burnt
+WST-000230,2024-03-18,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.8,kg,0.85,4.08,Expired Shelf-Life
+WST-000231,2024-03-18,LOC-03,INV-016,Fresh Romaine Hearts,Produce,1.29,cases,14.5,18.71,Preparation Trim/Spillage
+WST-000232,2024-03-18,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.94,cases,14.5,57.13,Expired Shelf-Life
+WST-000233,2024-03-18,LOC-01,INV-002,Shredded Provolone,Dairy,1.34,kg,7.1,9.51,Expired Shelf-Life
+WST-000234,2024-03-19,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,4.98,kg,8.9,44.32,Preparation Trim/Spillage
+WST-000235,2024-03-19,LOC-02,INV-002,Shredded Provolone,Dairy,1.94,kg,7.1,13.77,Preparation Trim/Spillage
+WST-000236,2024-03-19,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.95,kg,8.9,26.26,Overcooked/Burnt
+WST-000237,2024-03-19,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,2.15,kg,3.2,6.88,Overcooked/Burnt
+WST-000238,2024-03-20,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.28,kg,0.85,3.64,Expired Shelf-Life
+WST-000239,2024-03-20,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.45,kg,6.2,27.59,Drop/Damaged Handling
+WST-000240,2024-03-21,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,5.14,kg,3.2,16.45,Overcooked/Burnt
+WST-000241,2024-03-21,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.18,kg,4.8,15.26,Overcooked/Burnt
+WST-000242,2024-03-22,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,1.33,kg,2.4,3.19,Preparation Trim/Spillage
+WST-000243,2024-03-22,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.3,kg,8.9,11.57,Overcooked/Burnt
+WST-000244,2024-03-23,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.89,kg,8.9,43.52,Drop/Damaged Handling
+WST-000245,2024-03-23,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.91,kg,4.8,13.97,Overcooked/Burnt
+WST-000246,2024-03-24,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.01,kg,6.2,18.66,Expired Shelf-Life
+WST-000247,2024-03-24,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.86,kg,3.2,5.95,Preparation Trim/Spillage
+WST-000248,2024-03-24,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.83,kg,3.2,9.06,Expired Shelf-Life
+WST-000249,2024-03-24,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.67,kg,8.9,32.66,Expired Shelf-Life
+WST-000250,2024-03-25,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.49,kg,0.85,1.27,Drop/Damaged Handling
+WST-000251,2024-03-25,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,3.76,kg,2.4,9.02,Expired Shelf-Life
+WST-000252,2024-03-26,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.27,kg,12.0,27.24,Expired Shelf-Life
+WST-000253,2024-03-26,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.35,kg,7.5,10.12,Expired Shelf-Life
+WST-000254,2024-03-26,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.71,kg,3.2,8.67,Overcooked/Burnt
+WST-000255,2024-03-26,LOC-02,INV-002,Shredded Provolone,Dairy,3.59,kg,7.1,25.49,Preparation Trim/Spillage
+WST-000256,2024-03-27,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,5.43,kg,3.2,17.38,Drop/Damaged Handling
+WST-000257,2024-03-27,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,5.42,kg,8.9,48.24,Preparation Trim/Spillage
+WST-000258,2024-03-28,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,2.71,kg,0.85,2.3,Preparation Trim/Spillage
+WST-000259,2024-03-28,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.6,kg,4.8,22.08,Preparation Trim/Spillage
+WST-000260,2024-03-28,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.87,kg,12.0,22.44,Drop/Damaged Handling
+WST-000261,2024-03-29,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.16,cases,14.5,60.32,Preparation Trim/Spillage
+WST-000262,2024-03-29,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.01,kg,4.8,19.25,Preparation Trim/Spillage
+WST-000263,2024-03-30,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.72,kg,8.9,42.01,Overcooked/Burnt
+WST-000264,2024-03-30,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.21,kg,3.2,7.07,Expired Shelf-Life
+WST-000265,2024-03-30,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.68,kg,7.5,20.1,Expired Shelf-Life
+WST-000266,2024-03-31,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,2.02,kg,0.85,1.72,Overcooked/Burnt
+WST-000267,2024-03-31,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,3.73,kg,3.2,11.94,Preparation Trim/Spillage
+WST-000268,2024-03-31,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,3.26,kg,0.85,2.77,Expired Shelf-Life
+WST-000269,2024-03-31,LOC-04,INV-016,Fresh Romaine Hearts,Produce,4.42,cases,14.5,64.09,Preparation Trim/Spillage
+WST-000270,2024-04-01,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.26,cases,14.5,47.27,Expired Shelf-Life
+WST-000271,2024-04-01,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.11,cases,14.5,45.09,Overcooked/Burnt
+WST-000272,2024-04-02,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.64,cases,14.5,52.78,Expired Shelf-Life
+WST-000273,2024-04-02,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.3,kg,12.0,27.6,Drop/Damaged Handling
+WST-000274,2024-04-02,LOC-04,INV-016,Fresh Romaine Hearts,Produce,3.01,cases,14.5,43.64,Preparation Trim/Spillage
+WST-000275,2024-04-02,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.87,kg,6.2,23.99,Expired Shelf-Life
+WST-000276,2024-04-03,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,5.16,kg,8.9,45.92,Expired Shelf-Life
+WST-000277,2024-04-03,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,4.41,kg,3.2,14.11,Preparation Trim/Spillage
+WST-000278,2024-04-03,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.37,kg,4.8,20.98,Drop/Damaged Handling
+WST-000279,2024-04-03,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,1.52,kg,3.2,4.86,Expired Shelf-Life
+WST-000280,2024-04-04,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,5.03,kg,3.2,16.1,Drop/Damaged Handling
+WST-000281,2024-04-04,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.22,cases,14.5,61.19,Expired Shelf-Life
+WST-000282,2024-04-04,LOC-03,INV-002,Shredded Provolone,Dairy,3.46,kg,7.1,24.57,Expired Shelf-Life
+WST-000283,2024-04-05,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,1.26,kg,3.2,4.03,Expired Shelf-Life
+WST-000284,2024-04-05,LOC-01,INV-002,Shredded Provolone,Dairy,1.89,kg,7.1,13.42,Drop/Damaged Handling
+WST-000285,2024-04-05,LOC-03,INV-016,Fresh Romaine Hearts,Produce,4.15,cases,14.5,60.18,Preparation Trim/Spillage
+WST-000286,2024-04-06,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.23,kg,0.85,1.9,Expired Shelf-Life
+WST-000287,2024-04-06,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,3.33,kg,0.85,2.83,Overcooked/Burnt
+WST-000288,2024-04-06,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.22,kg,7.5,24.15,Drop/Damaged Handling
+WST-000289,2024-04-07,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.31,kg,8.9,11.66,Expired Shelf-Life
+WST-000290,2024-04-07,LOC-03,INV-002,Shredded Provolone,Dairy,2.21,kg,7.1,15.69,Expired Shelf-Life
+WST-000291,2024-04-07,LOC-03,INV-017,Fresh Genovese Basil,Produce,5.18,kg,12.0,62.16,Expired Shelf-Life
+WST-000292,2024-04-07,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.78,kg,2.4,11.47,Overcooked/Burnt
+WST-000293,2024-04-08,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,3.79,kg,2.4,9.1,Overcooked/Burnt
+WST-000294,2024-04-08,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.34,kg,3.2,7.49,Expired Shelf-Life
+WST-000295,2024-04-08,LOC-01,INV-016,Fresh Romaine Hearts,Produce,2.45,cases,14.5,35.53,Expired Shelf-Life
+WST-000296,2024-04-09,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.12,kg,3.2,13.18,Expired Shelf-Life
+WST-000297,2024-04-09,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.18,cases,14.5,60.61,Expired Shelf-Life
+WST-000298,2024-04-09,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,1.39,kg,2.4,3.34,Overcooked/Burnt
+WST-000299,2024-04-09,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.52,kg,12.0,18.24,Overcooked/Burnt
+WST-000300,2024-04-10,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,4.18,kg,0.85,3.55,Preparation Trim/Spillage
+WST-000301,2024-04-10,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.94,kg,3.2,12.61,Expired Shelf-Life
+WST-000302,2024-04-11,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.22,kg,2.4,7.73,Expired Shelf-Life
+WST-000303,2024-04-11,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.96,kg,3.2,15.87,Expired Shelf-Life
+WST-000304,2024-04-11,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.58,kg,3.2,8.26,Drop/Damaged Handling
+WST-000305,2024-04-12,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.54,kg,6.2,21.95,Expired Shelf-Life
+WST-000306,2024-04-12,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.93,kg,6.2,24.37,Expired Shelf-Life
+WST-000307,2024-04-12,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,3.75,kg,0.85,3.19,Expired Shelf-Life
+WST-000308,2024-04-13,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.52,kg,2.4,10.85,Expired Shelf-Life
+WST-000309,2024-04-13,LOC-03,INV-002,Shredded Provolone,Dairy,2.11,kg,7.1,14.98,Overcooked/Burnt
+WST-000310,2024-04-13,LOC-04,INV-002,Shredded Provolone,Dairy,2.06,kg,7.1,14.63,Expired Shelf-Life
+WST-000311,2024-04-14,LOC-04,INV-002,Shredded Provolone,Dairy,3.34,kg,7.1,23.71,Preparation Trim/Spillage
+WST-000312,2024-04-14,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.69,kg,7.5,20.18,Preparation Trim/Spillage
+WST-000313,2024-04-14,LOC-03,INV-002,Shredded Provolone,Dairy,5.44,kg,7.1,38.62,Preparation Trim/Spillage
+WST-000314,2024-04-15,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,5.48,kg,0.85,4.66,Preparation Trim/Spillage
+WST-000315,2024-04-15,LOC-02,INV-017,Fresh Genovese Basil,Produce,3.74,kg,12.0,44.88,Expired Shelf-Life
+WST-000316,2024-04-16,LOC-04,INV-016,Fresh Romaine Hearts,Produce,5.48,cases,14.5,79.46,Expired Shelf-Life
+WST-000317,2024-04-16,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.21,kg,7.5,39.08,Overcooked/Burnt
+WST-000318,2024-04-17,LOC-02,INV-016,Fresh Romaine Hearts,Produce,2.16,cases,14.5,31.32,Preparation Trim/Spillage
+WST-000319,2024-04-17,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,4.22,kg,3.2,13.5,Expired Shelf-Life
+WST-000320,2024-04-18,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,1.71,kg,3.2,5.47,Preparation Trim/Spillage
+WST-000321,2024-04-18,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.22,kg,2.4,5.33,Drop/Damaged Handling
+WST-000322,2024-04-18,LOC-03,INV-002,Shredded Provolone,Dairy,3.5,kg,7.1,24.85,Preparation Trim/Spillage
+WST-000323,2024-04-19,LOC-04,INV-002,Shredded Provolone,Dairy,4.94,kg,7.1,35.07,Preparation Trim/Spillage
+WST-000324,2024-04-19,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.44,kg,12.0,65.28,Preparation Trim/Spillage
+WST-000325,2024-04-20,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.37,kg,6.2,20.89,Expired Shelf-Life
+WST-000326,2024-04-20,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.29,kg,3.2,13.73,Expired Shelf-Life
+WST-000327,2024-04-20,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.05,kg,4.8,19.44,Preparation Trim/Spillage
+WST-000328,2024-04-20,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,1.38,kg,8.9,12.28,Preparation Trim/Spillage
+WST-000329,2024-04-21,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.37,kg,6.2,14.69,Expired Shelf-Life
+WST-000330,2024-04-21,LOC-03,INV-002,Shredded Provolone,Dairy,5.33,kg,7.1,37.84,Drop/Damaged Handling
+WST-000331,2024-04-21,LOC-03,INV-002,Shredded Provolone,Dairy,4.72,kg,7.1,33.51,Preparation Trim/Spillage
+WST-000332,2024-04-22,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.33,kg,6.2,14.45,Preparation Trim/Spillage
+WST-000333,2024-04-22,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.96,kg,4.8,23.81,Preparation Trim/Spillage
+WST-000334,2024-04-22,LOC-02,INV-016,Fresh Romaine Hearts,Produce,1.81,cases,14.5,26.25,Overcooked/Burnt
+WST-000335,2024-04-23,LOC-03,INV-002,Shredded Provolone,Dairy,3.84,kg,7.1,27.26,Expired Shelf-Life
+WST-000336,2024-04-23,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.74,kg,2.4,6.58,Preparation Trim/Spillage
+WST-000337,2024-04-23,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,2.05,kg,8.9,18.24,Expired Shelf-Life
+WST-000338,2024-04-23,LOC-03,INV-002,Shredded Provolone,Dairy,3.36,kg,7.1,23.86,Overcooked/Burnt
+WST-000339,2024-04-24,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.96,kg,6.2,18.35,Preparation Trim/Spillage
+WST-000340,2024-04-24,LOC-02,INV-002,Shredded Provolone,Dairy,1.79,kg,7.1,12.71,Expired Shelf-Life
+WST-000341,2024-04-24,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.32,kg,4.8,11.14,Preparation Trim/Spillage
+WST-000342,2024-04-24,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,1.38,kg,0.85,1.17,Expired Shelf-Life
+WST-000343,2024-04-25,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.96,cases,14.5,71.92,Expired Shelf-Life
+WST-000344,2024-04-25,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.43,kg,4.8,21.26,Expired Shelf-Life
+WST-000345,2024-04-25,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.52,kg,7.5,26.4,Drop/Damaged Handling
+WST-000346,2024-04-25,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.34,kg,7.5,10.05,Overcooked/Burnt
+WST-000347,2024-04-26,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,1.72,kg,2.4,4.13,Overcooked/Burnt
+WST-000348,2024-04-26,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.18,kg,7.5,16.35,Expired Shelf-Life
+WST-000349,2024-04-26,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.49,kg,2.4,10.78,Preparation Trim/Spillage
+WST-000350,2024-04-26,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.74,kg,8.9,24.39,Preparation Trim/Spillage
+WST-000351,2024-04-27,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,2.01,kg,3.2,6.43,Expired Shelf-Life
+WST-000352,2024-04-27,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.15,kg,12.0,25.8,Expired Shelf-Life
+WST-000353,2024-04-28,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.73,kg,2.4,6.55,Overcooked/Burnt
+WST-000354,2024-04-28,LOC-04,INV-002,Shredded Provolone,Dairy,1.81,kg,7.1,12.85,Preparation Trim/Spillage
+WST-000355,2024-04-29,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.27,kg,2.4,7.85,Drop/Damaged Handling
+WST-000356,2024-04-29,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.92,kg,7.5,29.4,Preparation Trim/Spillage
+WST-000357,2024-04-29,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.35,kg,8.9,38.71,Expired Shelf-Life
+WST-000358,2024-04-30,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.94,kg,8.9,35.07,Expired Shelf-Life
+WST-000359,2024-04-30,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,3.31,kg,8.9,29.46,Expired Shelf-Life
+WST-000360,2024-04-30,LOC-04,INV-017,Fresh Genovese Basil,Produce,2.56,kg,12.0,30.72,Expired Shelf-Life
+WST-000361,2024-04-30,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,5.1,kg,2.4,12.24,Expired Shelf-Life
+WST-000362,2024-05-01,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.96,kg,6.2,24.55,Drop/Damaged Handling
+WST-000363,2024-05-01,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.68,kg,0.85,2.28,Expired Shelf-Life
+WST-000364,2024-05-01,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.59,kg,7.5,34.42,Expired Shelf-Life
+WST-000365,2024-05-02,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.48,kg,6.2,15.38,Overcooked/Burnt
+WST-000366,2024-05-02,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,5.07,kg,2.4,12.17,Expired Shelf-Life
+WST-000367,2024-05-02,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.22,kg,6.2,26.16,Drop/Damaged Handling
+WST-000368,2024-05-02,LOC-02,INV-017,Fresh Genovese Basil,Produce,5.49,kg,12.0,65.88,Overcooked/Burnt
+WST-000369,2024-05-03,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.07,cases,14.5,30.01,Expired Shelf-Life
+WST-000370,2024-05-03,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,3.29,kg,3.2,10.53,Expired Shelf-Life
+WST-000371,2024-05-04,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.91,kg,0.85,4.17,Drop/Damaged Handling
+WST-000372,2024-05-04,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.46,kg,6.2,15.25,Expired Shelf-Life
+WST-000373,2024-05-04,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.16,kg,3.2,13.31,Preparation Trim/Spillage
+WST-000374,2024-05-05,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.61,kg,3.2,11.55,Expired Shelf-Life
+WST-000375,2024-05-05,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.34,kg,7.5,25.05,Expired Shelf-Life
+WST-000376,2024-05-06,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.94,kg,7.5,37.05,Overcooked/Burnt
+WST-000377,2024-05-06,LOC-03,INV-002,Shredded Provolone,Dairy,1.8,kg,7.1,12.78,Expired Shelf-Life
+WST-000378,2024-05-06,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,3.84,kg,8.9,34.18,Expired Shelf-Life
+WST-000379,2024-05-07,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,2.58,kg,3.2,8.26,Overcooked/Burnt
+WST-000380,2024-05-07,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.79,kg,8.9,33.73,Expired Shelf-Life
+WST-000381,2024-05-08,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.03,kg,8.9,35.87,Preparation Trim/Spillage
+WST-000382,2024-05-08,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.05,kg,3.2,12.96,Expired Shelf-Life
+WST-000383,2024-05-09,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.72,kg,3.2,8.7,Preparation Trim/Spillage
+WST-000384,2024-05-09,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.47,kg,4.8,16.66,Expired Shelf-Life
+WST-000385,2024-05-09,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.02,kg,7.5,30.15,Expired Shelf-Life
+WST-000386,2024-05-09,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.05,kg,4.8,14.64,Expired Shelf-Life
+WST-000387,2024-05-10,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,4.18,kg,2.4,10.03,Expired Shelf-Life
+WST-000388,2024-05-10,LOC-02,INV-002,Shredded Provolone,Dairy,4.88,kg,7.1,34.65,Preparation Trim/Spillage
+WST-000389,2024-05-10,LOC-02,INV-002,Shredded Provolone,Dairy,3.03,kg,7.1,21.51,Overcooked/Burnt
+WST-000390,2024-05-11,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.77,kg,4.8,13.3,Drop/Damaged Handling
+WST-000391,2024-05-11,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,2.3,kg,0.85,1.95,Overcooked/Burnt
+WST-000392,2024-05-12,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,3.24,kg,0.85,2.75,Drop/Damaged Handling
+WST-000393,2024-05-12,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.42,kg,4.8,11.62,Expired Shelf-Life
+WST-000394,2024-05-13,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.94,kg,4.8,23.71,Preparation Trim/Spillage
+WST-000395,2024-05-13,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.83,kg,3.2,15.46,Preparation Trim/Spillage
+WST-000396,2024-05-14,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.3,kg,6.2,32.86,Expired Shelf-Life
+WST-000397,2024-05-14,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.6,kg,12.0,19.2,Overcooked/Burnt
+WST-000398,2024-05-14,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.82,kg,7.5,13.65,Preparation Trim/Spillage
+WST-000399,2024-05-15,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.94,cases,14.5,42.63,Preparation Trim/Spillage
+WST-000400,2024-05-15,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.65,kg,7.5,19.88,Expired Shelf-Life
+WST-000401,2024-05-15,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,4.26,kg,0.85,3.62,Overcooked/Burnt
+WST-000402,2024-05-16,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.75,kg,2.4,9.0,Drop/Damaged Handling
+WST-000403,2024-05-16,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.0,kg,8.9,35.6,Drop/Damaged Handling
+WST-000404,2024-05-17,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,5.31,kg,3.2,16.99,Expired Shelf-Life
+WST-000405,2024-05-17,LOC-04,INV-002,Shredded Provolone,Dairy,3.08,kg,7.1,21.87,Expired Shelf-Life
+WST-000406,2024-05-17,LOC-02,INV-017,Fresh Genovese Basil,Produce,5.08,kg,12.0,60.96,Overcooked/Burnt
+WST-000407,2024-05-17,LOC-04,INV-017,Fresh Genovese Basil,Produce,3.02,kg,12.0,36.24,Expired Shelf-Life
+WST-000408,2024-05-18,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.31,cases,14.5,62.49,Expired Shelf-Life
+WST-000409,2024-05-18,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,5.39,kg,3.2,17.25,Overcooked/Burnt
+WST-000410,2024-05-18,LOC-03,INV-016,Fresh Romaine Hearts,Produce,1.72,cases,14.5,24.94,Expired Shelf-Life
+WST-000411,2024-05-18,LOC-04,INV-016,Fresh Romaine Hearts,Produce,5.16,cases,14.5,74.82,Expired Shelf-Life
+WST-000412,2024-05-19,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.22,kg,7.5,24.15,Expired Shelf-Life
+WST-000413,2024-05-19,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,5.24,kg,0.85,4.45,Drop/Damaged Handling
+WST-000414,2024-05-20,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.96,kg,0.85,4.22,Expired Shelf-Life
+WST-000415,2024-05-20,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.22,kg,6.2,7.56,Overcooked/Burnt
+WST-000416,2024-05-20,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.07,kg,12.0,60.84,Preparation Trim/Spillage
+WST-000417,2024-05-20,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.24,kg,3.2,13.57,Preparation Trim/Spillage
+WST-000418,2024-05-21,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.53,kg,8.9,40.32,Expired Shelf-Life
+WST-000419,2024-05-21,LOC-02,INV-016,Fresh Romaine Hearts,Produce,5.23,cases,14.5,75.84,Preparation Trim/Spillage
+WST-000420,2024-05-21,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.87,kg,3.2,9.18,Expired Shelf-Life
+WST-000421,2024-05-21,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.51,kg,2.4,6.02,Expired Shelf-Life
+WST-000422,2024-05-22,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,2.49,kg,8.9,22.16,Drop/Damaged Handling
+WST-000423,2024-05-22,LOC-04,INV-002,Shredded Provolone,Dairy,3.12,kg,7.1,22.15,Preparation Trim/Spillage
+WST-000424,2024-05-23,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.7,kg,7.5,12.75,Expired Shelf-Life
+WST-000425,2024-05-23,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.99,kg,7.5,29.93,Drop/Damaged Handling
+WST-000426,2024-05-23,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.41,kg,7.5,18.08,Preparation Trim/Spillage
+WST-000427,2024-05-24,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.14,kg,7.5,16.05,Overcooked/Burnt
+WST-000428,2024-05-24,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.14,kg,2.4,9.94,Expired Shelf-Life
+WST-000429,2024-05-25,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.91,kg,4.8,9.17,Drop/Damaged Handling
+WST-000430,2024-05-25,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,4.28,kg,2.4,10.27,Expired Shelf-Life
+WST-000431,2024-05-25,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.83,kg,7.5,21.23,Expired Shelf-Life
+WST-000432,2024-05-25,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.94,kg,6.2,30.63,Expired Shelf-Life
+WST-000433,2024-05-26,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.38,kg,0.85,2.02,Drop/Damaged Handling
+WST-000434,2024-05-26,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.31,kg,6.2,14.32,Drop/Damaged Handling
+WST-000435,2024-05-27,LOC-04,INV-002,Shredded Provolone,Dairy,2.71,kg,7.1,19.24,Preparation Trim/Spillage
+WST-000436,2024-05-27,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.02,kg,7.5,22.65,Drop/Damaged Handling
+WST-000437,2024-05-28,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.24,kg,2.4,7.78,Expired Shelf-Life
+WST-000438,2024-05-28,LOC-01,INV-017,Fresh Genovese Basil,Produce,4.6,kg,12.0,55.2,Expired Shelf-Life
+WST-000439,2024-05-28,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.91,kg,4.8,18.77,Expired Shelf-Life
+WST-000440,2024-05-28,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.37,kg,7.5,32.77,Expired Shelf-Life
+WST-000441,2024-05-29,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.59,kg,3.2,11.49,Expired Shelf-Life
+WST-000442,2024-05-29,LOC-01,INV-002,Shredded Provolone,Dairy,3.75,kg,7.1,26.62,Overcooked/Burnt
+WST-000443,2024-05-29,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,5.07,kg,0.85,4.31,Preparation Trim/Spillage
+WST-000444,2024-05-30,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.59,kg,2.4,6.22,Expired Shelf-Life
+WST-000445,2024-05-30,LOC-04,INV-016,Fresh Romaine Hearts,Produce,5.21,cases,14.5,75.55,Expired Shelf-Life
+WST-000446,2024-05-30,LOC-04,INV-016,Fresh Romaine Hearts,Produce,3.64,cases,14.5,52.78,Expired Shelf-Life
+WST-000447,2024-05-31,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.06,kg,2.4,4.94,Expired Shelf-Life
+WST-000448,2024-05-31,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.91,kg,3.2,12.51,Preparation Trim/Spillage
+WST-000449,2024-05-31,LOC-04,INV-002,Shredded Provolone,Dairy,1.43,kg,7.1,10.15,Expired Shelf-Life
+WST-000450,2024-05-31,LOC-03,INV-017,Fresh Genovese Basil,Produce,1.88,kg,12.0,22.56,Overcooked/Burnt
+WST-000451,2024-06-01,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,5.22,kg,8.9,46.46,Expired Shelf-Life
+WST-000452,2024-06-01,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.71,kg,12.0,20.52,Expired Shelf-Life
+WST-000453,2024-06-01,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.0,kg,4.8,9.6,Preparation Trim/Spillage
+WST-000454,2024-06-02,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.73,kg,7.5,35.48,Overcooked/Burnt
+WST-000455,2024-06-02,LOC-02,INV-002,Shredded Provolone,Dairy,2.18,kg,7.1,15.48,Preparation Trim/Spillage
+WST-000456,2024-06-02,LOC-03,INV-016,Fresh Romaine Hearts,Produce,5.1,cases,14.5,73.95,Expired Shelf-Life
+WST-000457,2024-06-03,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,1.56,kg,8.9,13.88,Expired Shelf-Life
+WST-000458,2024-06-03,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,3.16,kg,0.85,2.69,Overcooked/Burnt
+WST-000459,2024-06-04,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.08,cases,14.5,30.16,Preparation Trim/Spillage
+WST-000460,2024-06-04,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,2.73,kg,8.9,24.3,Expired Shelf-Life
+WST-000461,2024-06-04,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.49,cases,14.5,65.11,Expired Shelf-Life
+WST-000462,2024-06-04,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.32,cases,14.5,48.14,Expired Shelf-Life
+WST-000463,2024-06-05,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.7,kg,12.0,32.4,Expired Shelf-Life
+WST-000464,2024-06-05,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.7,kg,3.2,5.44,Expired Shelf-Life
+WST-000465,2024-06-06,LOC-04,INV-002,Shredded Provolone,Dairy,1.93,kg,7.1,13.7,Expired Shelf-Life
+WST-000466,2024-06-06,LOC-02,INV-002,Shredded Provolone,Dairy,4.53,kg,7.1,32.16,Expired Shelf-Life
+WST-000467,2024-06-06,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.8,kg,8.9,42.72,Preparation Trim/Spillage
+WST-000468,2024-06-07,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,2.18,kg,3.2,6.98,Expired Shelf-Life
+WST-000469,2024-06-07,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.23,cases,14.5,17.84,Preparation Trim/Spillage
+WST-000470,2024-06-08,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.79,kg,6.2,29.7,Expired Shelf-Life
+WST-000471,2024-06-08,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.42,kg,4.8,6.82,Expired Shelf-Life
+WST-000472,2024-06-08,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,3.97,kg,8.9,35.33,Expired Shelf-Life
+WST-000473,2024-06-09,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.22,kg,8.9,37.56,Drop/Damaged Handling
+WST-000474,2024-06-09,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.49,kg,4.8,26.35,Expired Shelf-Life
+WST-000475,2024-06-09,LOC-04,INV-002,Shredded Provolone,Dairy,3.21,kg,7.1,22.79,Expired Shelf-Life
+WST-000476,2024-06-10,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,1.37,kg,8.9,12.19,Expired Shelf-Life
+WST-000477,2024-06-10,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,1.74,kg,3.2,5.57,Preparation Trim/Spillage
+WST-000478,2024-06-11,LOC-03,INV-016,Fresh Romaine Hearts,Produce,3.94,cases,14.5,57.13,Expired Shelf-Life
+WST-000479,2024-06-11,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.77,kg,6.2,17.17,Expired Shelf-Life
+WST-000480,2024-06-11,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.99,kg,2.4,7.18,Expired Shelf-Life
+WST-000481,2024-06-11,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.35,kg,4.8,11.28,Preparation Trim/Spillage
+WST-000482,2024-06-12,LOC-04,INV-017,Fresh Genovese Basil,Produce,3.95,kg,12.0,47.4,Expired Shelf-Life
+WST-000483,2024-06-12,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.82,kg,0.85,4.1,Expired Shelf-Life
+WST-000484,2024-06-12,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.45,kg,12.0,29.4,Drop/Damaged Handling
+WST-000485,2024-06-13,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.12,kg,7.5,38.4,Drop/Damaged Handling
+WST-000486,2024-06-13,LOC-03,INV-002,Shredded Provolone,Dairy,3.18,kg,7.1,22.58,Expired Shelf-Life
+WST-000487,2024-06-14,LOC-02,INV-017,Fresh Genovese Basil,Produce,2.79,kg,12.0,33.48,Expired Shelf-Life
+WST-000488,2024-06-14,LOC-04,INV-002,Shredded Provolone,Dairy,1.91,kg,7.1,13.56,Overcooked/Burnt
+WST-000489,2024-06-14,LOC-02,INV-017,Fresh Genovese Basil,Produce,2.59,kg,12.0,31.08,Preparation Trim/Spillage
+WST-000490,2024-06-14,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.87,cases,14.5,41.62,Expired Shelf-Life
+WST-000491,2024-06-15,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.44,kg,4.8,11.71,Preparation Trim/Spillage
+WST-000492,2024-06-15,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.99,kg,6.2,30.94,Drop/Damaged Handling
+WST-000493,2024-06-16,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.11,kg,4.8,10.13,Drop/Damaged Handling
+WST-000494,2024-06-16,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.93,kg,2.4,11.83,Expired Shelf-Life
+WST-000495,2024-06-16,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.44,kg,12.0,53.28,Expired Shelf-Life
+WST-000496,2024-06-17,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.47,kg,6.2,9.11,Expired Shelf-Life
+WST-000497,2024-06-17,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,1.72,kg,3.2,5.5,Overcooked/Burnt
+WST-000498,2024-06-18,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.16,kg,4.8,24.77,Preparation Trim/Spillage
+WST-000499,2024-06-18,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.6,kg,7.5,12.0,Preparation Trim/Spillage
+WST-000500,2024-06-19,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.36,kg,6.2,33.23,Expired Shelf-Life
+WST-000501,2024-06-19,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,5.22,kg,0.85,4.44,Preparation Trim/Spillage
+WST-000502,2024-06-19,LOC-04,INV-016,Fresh Romaine Hearts,Produce,5.13,cases,14.5,74.39,Preparation Trim/Spillage
+WST-000503,2024-06-20,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,1.48,kg,3.2,4.74,Preparation Trim/Spillage
+WST-000504,2024-06-20,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,2.96,kg,0.85,2.52,Expired Shelf-Life
+WST-000505,2024-06-21,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.36,kg,8.9,21.0,Preparation Trim/Spillage
+WST-000506,2024-06-21,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.12,kg,7.5,15.9,Expired Shelf-Life
+WST-000507,2024-06-22,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.31,kg,12.0,27.72,Expired Shelf-Life
+WST-000508,2024-06-22,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.72,kg,7.5,20.4,Expired Shelf-Life
+WST-000509,2024-06-22,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.37,kg,4.8,20.98,Expired Shelf-Life
+WST-000510,2024-06-22,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.82,kg,7.5,36.15,Drop/Damaged Handling
+WST-000511,2024-06-23,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.9,kg,4.8,23.52,Preparation Trim/Spillage
+WST-000512,2024-06-23,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.38,kg,2.4,5.71,Expired Shelf-Life
+WST-000513,2024-06-23,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.25,kg,12.0,27.0,Preparation Trim/Spillage
+WST-000514,2024-06-24,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,5.0,kg,2.4,12.0,Preparation Trim/Spillage
+WST-000515,2024-06-24,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,3.07,kg,2.4,7.37,Overcooked/Burnt
+WST-000516,2024-06-24,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,3.24,kg,0.85,2.75,Expired Shelf-Life
+WST-000517,2024-06-25,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.48,kg,6.2,9.18,Overcooked/Burnt
+WST-000518,2024-06-25,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.89,kg,2.4,11.74,Preparation Trim/Spillage
+WST-000519,2024-06-26,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.43,kg,6.2,27.47,Preparation Trim/Spillage
+WST-000520,2024-06-26,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.12,kg,3.2,13.18,Preparation Trim/Spillage
+WST-000521,2024-06-26,LOC-03,INV-017,Fresh Genovese Basil,Produce,3.88,kg,12.0,46.56,Expired Shelf-Life
+WST-000522,2024-06-27,LOC-03,INV-002,Shredded Provolone,Dairy,4.17,kg,7.1,29.61,Preparation Trim/Spillage
+WST-000523,2024-06-27,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,1.53,kg,2.4,3.67,Preparation Trim/Spillage
+WST-000524,2024-06-28,LOC-03,INV-002,Shredded Provolone,Dairy,4.04,kg,7.1,28.68,Expired Shelf-Life
+WST-000525,2024-06-28,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.95,kg,6.2,24.49,Expired Shelf-Life
+WST-000526,2024-06-28,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,3.19,kg,8.9,28.39,Drop/Damaged Handling
+WST-000527,2024-06-28,LOC-03,INV-016,Fresh Romaine Hearts,Produce,4.9,cases,14.5,71.05,Expired Shelf-Life
+WST-000528,2024-06-29,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.49,kg,4.8,26.35,Expired Shelf-Life
+WST-000529,2024-06-29,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.06,kg,4.8,24.29,Drop/Damaged Handling
+WST-000530,2024-06-29,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.94,kg,7.5,14.55,Expired Shelf-Life
+WST-000531,2024-06-29,LOC-01,INV-002,Shredded Provolone,Dairy,3.54,kg,7.1,25.13,Preparation Trim/Spillage
+WST-000532,2024-06-30,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.16,kg,8.9,37.02,Expired Shelf-Life
+WST-000533,2024-06-30,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.27,kg,4.8,6.1,Expired Shelf-Life
+WST-000534,2024-06-30,LOC-03,INV-002,Shredded Provolone,Dairy,3.44,kg,7.1,24.42,Expired Shelf-Life
+WST-000535,2024-06-30,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.35,kg,4.8,16.08,Overcooked/Burnt
+WST-000536,2024-07-01,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.71,kg,4.8,8.21,Preparation Trim/Spillage
+WST-000537,2024-07-01,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,3.64,kg,3.2,11.65,Expired Shelf-Life
+WST-000538,2024-07-02,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.27,kg,6.2,20.27,Expired Shelf-Life
+WST-000539,2024-07-02,LOC-03,INV-002,Shredded Provolone,Dairy,3.97,kg,7.1,28.19,Expired Shelf-Life
+WST-000540,2024-07-02,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.39,cases,14.5,49.16,Expired Shelf-Life
+WST-000541,2024-07-03,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.93,kg,12.0,35.16,Expired Shelf-Life
+WST-000542,2024-07-03,LOC-03,INV-016,Fresh Romaine Hearts,Produce,4.04,cases,14.5,58.58,Preparation Trim/Spillage
+WST-000543,2024-07-03,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,5.08,kg,0.85,4.32,Expired Shelf-Life
+WST-000544,2024-07-03,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.16,kg,6.2,31.99,Expired Shelf-Life
+WST-000545,2024-07-04,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,1.59,kg,2.4,3.82,Expired Shelf-Life
+WST-000546,2024-07-04,LOC-04,INV-017,Fresh Genovese Basil,Produce,1.68,kg,12.0,20.16,Overcooked/Burnt
+WST-000547,2024-07-05,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.26,kg,3.2,10.43,Expired Shelf-Life
+WST-000548,2024-07-05,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.72,kg,4.8,8.26,Preparation Trim/Spillage
+WST-000549,2024-07-05,LOC-03,INV-016,Fresh Romaine Hearts,Produce,1.8,cases,14.5,26.1,Preparation Trim/Spillage
+WST-000550,2024-07-06,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.89,kg,3.2,15.65,Preparation Trim/Spillage
+WST-000551,2024-07-06,LOC-03,INV-017,Fresh Genovese Basil,Produce,3.61,kg,12.0,43.32,Expired Shelf-Life
+WST-000552,2024-07-06,LOC-04,INV-017,Fresh Genovese Basil,Produce,1.88,kg,12.0,22.56,Expired Shelf-Life
+WST-000553,2024-07-07,LOC-02,INV-016,Fresh Romaine Hearts,Produce,5.42,cases,14.5,78.59,Preparation Trim/Spillage
+WST-000554,2024-07-07,LOC-01,INV-016,Fresh Romaine Hearts,Produce,2.24,cases,14.5,32.48,Expired Shelf-Life
+WST-000555,2024-07-07,LOC-04,INV-002,Shredded Provolone,Dairy,5.11,kg,7.1,36.28,Expired Shelf-Life
+WST-000556,2024-07-08,LOC-02,INV-002,Shredded Provolone,Dairy,3.21,kg,7.1,22.79,Overcooked/Burnt
+WST-000557,2024-07-08,LOC-02,INV-016,Fresh Romaine Hearts,Produce,1.25,cases,14.5,18.12,Expired Shelf-Life
+WST-000558,2024-07-09,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.55,kg,4.8,17.04,Preparation Trim/Spillage
+WST-000559,2024-07-09,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.29,kg,6.2,14.2,Expired Shelf-Life
+WST-000560,2024-07-09,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.43,kg,12.0,17.16,Expired Shelf-Life
+WST-000561,2024-07-09,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.24,kg,12.0,26.88,Preparation Trim/Spillage
+WST-000562,2024-07-10,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.52,kg,7.5,26.4,Overcooked/Burnt
+WST-000563,2024-07-10,LOC-04,INV-017,Fresh Genovese Basil,Produce,3.41,kg,12.0,40.92,Expired Shelf-Life
+WST-000564,2024-07-10,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.49,kg,0.85,3.82,Expired Shelf-Life
+WST-000565,2024-07-10,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.43,kg,4.8,6.86,Expired Shelf-Life
+WST-000566,2024-07-11,LOC-03,INV-002,Shredded Provolone,Dairy,1.66,kg,7.1,11.79,Expired Shelf-Life
+WST-000567,2024-07-11,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.53,kg,8.9,22.52,Expired Shelf-Life
+WST-000568,2024-07-11,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.09,cases,14.5,59.3,Preparation Trim/Spillage
+WST-000569,2024-07-12,LOC-04,INV-002,Shredded Provolone,Dairy,4.16,kg,7.1,29.54,Expired Shelf-Life
+WST-000570,2024-07-12,LOC-03,INV-002,Shredded Provolone,Dairy,5.49,kg,7.1,38.98,Drop/Damaged Handling
+WST-000571,2024-07-12,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,3.46,kg,0.85,2.94,Preparation Trim/Spillage
+WST-000572,2024-07-12,LOC-03,INV-017,Fresh Genovese Basil,Produce,3.06,kg,12.0,36.72,Drop/Damaged Handling
+WST-000573,2024-07-13,LOC-03,INV-016,Fresh Romaine Hearts,Produce,3.95,cases,14.5,57.28,Expired Shelf-Life
+WST-000574,2024-07-13,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.17,kg,4.8,24.82,Overcooked/Burnt
+WST-000575,2024-07-13,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.92,kg,0.85,2.48,Expired Shelf-Life
+WST-000576,2024-07-14,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.12,cases,14.5,45.24,Expired Shelf-Life
+WST-000577,2024-07-14,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.88,kg,12.0,58.56,Expired Shelf-Life
+WST-000578,2024-07-15,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.34,kg,7.5,25.05,Overcooked/Burnt
+WST-000579,2024-07-15,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.41,kg,8.9,39.25,Overcooked/Burnt
+WST-000580,2024-07-15,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.27,kg,4.8,6.1,Overcooked/Burnt
+WST-000581,2024-07-15,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,5.47,kg,2.4,13.13,Overcooked/Burnt
+WST-000582,2024-07-16,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.64,kg,2.4,11.14,Expired Shelf-Life
+WST-000583,2024-07-16,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.63,cases,14.5,67.14,Overcooked/Burnt
+WST-000584,2024-07-16,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.08,kg,12.0,24.96,Preparation Trim/Spillage
+WST-000585,2024-07-16,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.0,kg,12.0,60.0,Expired Shelf-Life
+WST-000586,2024-07-17,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.51,kg,12.0,54.12,Overcooked/Burnt
+WST-000587,2024-07-17,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.67,kg,2.4,11.21,Expired Shelf-Life
+WST-000588,2024-07-17,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,3.89,kg,3.2,12.45,Expired Shelf-Life
+WST-000589,2024-07-18,LOC-03,INV-016,Fresh Romaine Hearts,Produce,3.89,cases,14.5,56.41,Expired Shelf-Life
+WST-000590,2024-07-18,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.43,kg,7.5,25.73,Expired Shelf-Life
+WST-000591,2024-07-19,LOC-02,INV-017,Fresh Genovese Basil,Produce,3.59,kg,12.0,43.08,Drop/Damaged Handling
+WST-000592,2024-07-19,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.72,kg,8.9,42.01,Preparation Trim/Spillage
+WST-000593,2024-07-19,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.02,kg,2.4,9.65,Expired Shelf-Life
+WST-000594,2024-07-19,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.62,kg,4.8,7.78,Expired Shelf-Life
+WST-000595,2024-07-20,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,4.35,kg,0.85,3.7,Expired Shelf-Life
+WST-000596,2024-07-20,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.17,kg,4.8,24.82,Preparation Trim/Spillage
+WST-000597,2024-07-20,LOC-04,INV-002,Shredded Provolone,Dairy,3.45,kg,7.1,24.5,Preparation Trim/Spillage
+WST-000598,2024-07-20,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.32,kg,8.9,20.65,Expired Shelf-Life
+WST-000599,2024-07-21,LOC-01,INV-002,Shredded Provolone,Dairy,2.02,kg,7.1,14.34,Expired Shelf-Life
+WST-000600,2024-07-21,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.7,kg,12.0,20.4,Expired Shelf-Life
+WST-000601,2024-07-21,LOC-04,INV-016,Fresh Romaine Hearts,Produce,2.16,cases,14.5,31.32,Preparation Trim/Spillage
+WST-000602,2024-07-22,LOC-02,INV-002,Shredded Provolone,Dairy,2.74,kg,7.1,19.45,Preparation Trim/Spillage
+WST-000603,2024-07-22,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.85,kg,3.2,9.12,Preparation Trim/Spillage
+WST-000604,2024-07-23,LOC-04,INV-002,Shredded Provolone,Dairy,4.41,kg,7.1,31.31,Preparation Trim/Spillage
+WST-000605,2024-07-23,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.84,cases,14.5,41.18,Expired Shelf-Life
+WST-000606,2024-07-23,LOC-01,INV-002,Shredded Provolone,Dairy,3.33,kg,7.1,23.64,Overcooked/Burnt
+WST-000607,2024-07-23,LOC-03,INV-017,Fresh Genovese Basil,Produce,1.56,kg,12.0,18.72,Expired Shelf-Life
+WST-000608,2024-07-24,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.5,kg,7.5,33.75,Expired Shelf-Life
+WST-000609,2024-07-24,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.49,kg,4.8,16.75,Expired Shelf-Life
+WST-000610,2024-07-25,LOC-04,INV-002,Shredded Provolone,Dairy,1.97,kg,7.1,13.99,Preparation Trim/Spillage
+WST-000611,2024-07-25,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.5,kg,8.9,40.05,Overcooked/Burnt
+WST-000612,2024-07-25,LOC-02,INV-016,Fresh Romaine Hearts,Produce,1.65,cases,14.5,23.92,Drop/Damaged Handling
+WST-000613,2024-07-26,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.48,kg,3.2,7.94,Expired Shelf-Life
+WST-000614,2024-07-26,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.5,kg,0.85,1.27,Expired Shelf-Life
+WST-000615,2024-07-27,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,1.49,kg,8.9,13.26,Drop/Damaged Handling
+WST-000616,2024-07-27,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.9,kg,7.5,14.25,Expired Shelf-Life
+WST-000617,2024-07-27,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.67,kg,12.0,32.04,Expired Shelf-Life
+WST-000618,2024-07-28,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.73,kg,8.9,33.2,Expired Shelf-Life
+WST-000619,2024-07-28,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,2.06,kg,3.2,6.59,Preparation Trim/Spillage
+WST-000620,2024-07-28,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.18,kg,6.2,19.72,Expired Shelf-Life
+WST-000621,2024-07-29,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.18,kg,7.5,31.35,Preparation Trim/Spillage
+WST-000622,2024-07-29,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.38,kg,8.9,38.98,Overcooked/Burnt
+WST-000623,2024-07-29,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,4.81,kg,2.4,11.54,Preparation Trim/Spillage
+WST-000624,2024-07-30,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,5.24,kg,2.4,12.58,Expired Shelf-Life
+WST-000625,2024-07-30,LOC-01,INV-017,Fresh Genovese Basil,Produce,3.09,kg,12.0,37.08,Expired Shelf-Life
+WST-000626,2024-07-30,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.25,kg,6.2,13.95,Drop/Damaged Handling
+WST-000627,2024-07-31,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.68,kg,2.4,6.43,Expired Shelf-Life
+WST-000628,2024-07-31,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.08,kg,12.0,60.96,Drop/Damaged Handling
+WST-000629,2024-07-31,LOC-03,INV-016,Fresh Romaine Hearts,Produce,4.26,cases,14.5,61.77,Expired Shelf-Life
+WST-000630,2024-08-01,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.87,cases,14.5,56.12,Expired Shelf-Life
+WST-000631,2024-08-01,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.78,kg,12.0,33.36,Preparation Trim/Spillage
+WST-000632,2024-08-01,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.76,kg,0.85,4.05,Drop/Damaged Handling
+WST-000633,2024-08-02,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.06,cases,14.5,58.87,Drop/Damaged Handling
+WST-000634,2024-08-02,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.65,kg,12.0,19.8,Expired Shelf-Life
+WST-000635,2024-08-02,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.89,kg,0.85,4.16,Expired Shelf-Life
+WST-000636,2024-08-03,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.07,kg,8.9,18.42,Expired Shelf-Life
+WST-000637,2024-08-03,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.5,kg,4.8,21.6,Expired Shelf-Life
+WST-000638,2024-08-03,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.57,kg,6.2,9.73,Preparation Trim/Spillage
+WST-000639,2024-08-03,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.51,kg,8.9,22.34,Preparation Trim/Spillage
+WST-000640,2024-08-04,LOC-02,INV-002,Shredded Provolone,Dairy,1.38,kg,7.1,9.8,Overcooked/Burnt
+WST-000641,2024-08-04,LOC-01,INV-017,Fresh Genovese Basil,Produce,4.22,kg,12.0,50.64,Expired Shelf-Life
+WST-000642,2024-08-04,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.62,kg,7.5,34.65,Preparation Trim/Spillage
+WST-000643,2024-08-05,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.56,kg,8.9,13.88,Expired Shelf-Life
+WST-000644,2024-08-05,LOC-03,INV-002,Shredded Provolone,Dairy,2.89,kg,7.1,20.52,Expired Shelf-Life
+WST-000645,2024-08-05,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.81,kg,6.2,17.42,Preparation Trim/Spillage
+WST-000646,2024-08-05,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.65,kg,8.9,41.39,Overcooked/Burnt
+WST-000647,2024-08-06,LOC-01,INV-002,Shredded Provolone,Dairy,1.71,kg,7.1,12.14,Drop/Damaged Handling
+WST-000648,2024-08-06,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.16,kg,4.8,15.17,Expired Shelf-Life
+WST-000649,2024-08-06,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.57,kg,6.2,28.33,Expired Shelf-Life
+WST-000650,2024-08-07,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.26,kg,0.85,3.62,Expired Shelf-Life
+WST-000651,2024-08-07,LOC-04,INV-017,Fresh Genovese Basil,Produce,4.04,kg,12.0,48.48,Expired Shelf-Life
+WST-000652,2024-08-08,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.77,kg,6.2,23.37,Drop/Damaged Handling
+WST-000653,2024-08-08,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.32,kg,7.5,24.9,Overcooked/Burnt
+WST-000654,2024-08-08,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,2.08,kg,0.85,1.77,Preparation Trim/Spillage
+WST-000655,2024-08-08,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.9,cases,14.5,71.05,Expired Shelf-Life
+WST-000656,2024-08-09,LOC-04,INV-016,Fresh Romaine Hearts,Produce,4.23,cases,14.5,61.34,Drop/Damaged Handling
+WST-000657,2024-08-09,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.37,kg,3.2,10.78,Expired Shelf-Life
+WST-000658,2024-08-10,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.38,kg,0.85,1.17,Expired Shelf-Life
+WST-000659,2024-08-10,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.25,cases,14.5,61.62,Preparation Trim/Spillage
+WST-000660,2024-08-10,LOC-02,INV-002,Shredded Provolone,Dairy,2.12,kg,7.1,15.05,Drop/Damaged Handling
+WST-000661,2024-08-10,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.77,kg,7.5,28.27,Preparation Trim/Spillage
+WST-000662,2024-08-11,LOC-01,INV-002,Shredded Provolone,Dairy,4.82,kg,7.1,34.22,Drop/Damaged Handling
+WST-000663,2024-08-11,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.69,kg,7.5,27.68,Expired Shelf-Life
+WST-000664,2024-08-11,LOC-04,INV-002,Shredded Provolone,Dairy,5.49,kg,7.1,38.98,Preparation Trim/Spillage
+WST-000665,2024-08-12,LOC-02,INV-002,Shredded Provolone,Dairy,3.58,kg,7.1,25.42,Drop/Damaged Handling
+WST-000666,2024-08-12,LOC-02,INV-002,Shredded Provolone,Dairy,2.57,kg,7.1,18.25,Expired Shelf-Life
+WST-000667,2024-08-13,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.43,kg,3.2,7.78,Expired Shelf-Life
+WST-000668,2024-08-13,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.75,kg,0.85,1.49,Preparation Trim/Spillage
+WST-000669,2024-08-14,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.19,kg,6.2,19.78,Expired Shelf-Life
+WST-000670,2024-08-14,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.68,cases,14.5,67.86,Preparation Trim/Spillage
+WST-000671,2024-08-14,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.94,kg,8.9,26.17,Expired Shelf-Life
+WST-000672,2024-08-15,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.78,kg,3.2,12.1,Drop/Damaged Handling
+WST-000673,2024-08-15,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,3.09,kg,8.9,27.5,Expired Shelf-Life
+WST-000674,2024-08-15,LOC-04,INV-017,Fresh Genovese Basil,Produce,3.97,kg,12.0,47.64,Expired Shelf-Life
+WST-000675,2024-08-16,LOC-02,INV-002,Shredded Provolone,Dairy,2.65,kg,7.1,18.81,Expired Shelf-Life
+WST-000676,2024-08-16,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.77,cases,14.5,54.66,Overcooked/Burnt
+WST-000677,2024-08-16,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.81,kg,6.2,17.42,Preparation Trim/Spillage
+WST-000678,2024-08-16,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.72,kg,3.2,8.7,Overcooked/Burnt
+WST-000679,2024-08-17,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.3,kg,3.2,4.16,Preparation Trim/Spillage
+WST-000680,2024-08-17,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.15,kg,2.4,5.16,Expired Shelf-Life
+WST-000681,2024-08-17,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,5.49,kg,2.4,13.18,Expired Shelf-Life
+WST-000682,2024-08-18,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.3,kg,12.0,15.6,Expired Shelf-Life
+WST-000683,2024-08-18,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.53,kg,6.2,28.09,Preparation Trim/Spillage
+WST-000684,2024-08-19,LOC-04,INV-016,Fresh Romaine Hearts,Produce,4.98,cases,14.5,72.21,Drop/Damaged Handling
+WST-000685,2024-08-19,LOC-02,INV-017,Fresh Genovese Basil,Produce,4.26,kg,12.0,51.12,Expired Shelf-Life
+WST-000686,2024-08-19,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.64,kg,4.8,22.27,Expired Shelf-Life
+WST-000687,2024-08-19,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,5.28,kg,0.85,4.49,Expired Shelf-Life
+WST-000688,2024-08-20,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.83,kg,8.9,25.19,Expired Shelf-Life
+WST-000689,2024-08-20,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.49,kg,6.2,15.44,Expired Shelf-Life
+WST-000690,2024-08-20,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.72,kg,12.0,56.64,Preparation Trim/Spillage
+WST-000691,2024-08-21,LOC-02,INV-017,Fresh Genovese Basil,Produce,2.53,kg,12.0,30.36,Overcooked/Burnt
+WST-000692,2024-08-21,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.12,kg,3.2,9.98,Overcooked/Burnt
+WST-000693,2024-08-21,LOC-02,INV-002,Shredded Provolone,Dairy,5.03,kg,7.1,35.71,Expired Shelf-Life
+WST-000694,2024-08-22,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,5.43,kg,2.4,13.03,Expired Shelf-Life
+WST-000695,2024-08-22,LOC-04,INV-002,Shredded Provolone,Dairy,1.73,kg,7.1,12.28,Expired Shelf-Life
+WST-000696,2024-08-23,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,1.81,kg,2.4,4.34,Drop/Damaged Handling
+WST-000697,2024-08-23,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.51,kg,2.4,10.82,Expired Shelf-Life
+WST-000698,2024-08-24,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.21,kg,7.5,9.07,Preparation Trim/Spillage
+WST-000699,2024-08-24,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,5.31,kg,8.9,47.26,Preparation Trim/Spillage
+WST-000700,2024-08-24,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.95,kg,8.9,17.36,Expired Shelf-Life
+WST-000701,2024-08-24,LOC-04,INV-002,Shredded Provolone,Dairy,5.24,kg,7.1,37.2,Overcooked/Burnt
+WST-000702,2024-08-25,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.67,kg,6.2,22.75,Overcooked/Burnt
+WST-000703,2024-08-25,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.06,kg,4.8,14.69,Expired Shelf-Life
+WST-000704,2024-08-25,LOC-03,INV-017,Fresh Genovese Basil,Produce,1.25,kg,12.0,15.0,Preparation Trim/Spillage
+WST-000705,2024-08-25,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,1.38,kg,3.2,4.42,Expired Shelf-Life
+WST-000706,2024-08-26,LOC-04,INV-017,Fresh Genovese Basil,Produce,4.71,kg,12.0,56.52,Overcooked/Burnt
+WST-000707,2024-08-26,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.99,kg,6.2,30.94,Preparation Trim/Spillage
+WST-000708,2024-08-26,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.26,kg,7.5,9.45,Expired Shelf-Life
+WST-000709,2024-08-27,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.97,kg,0.85,4.22,Overcooked/Burnt
+WST-000710,2024-08-27,LOC-01,INV-002,Shredded Provolone,Dairy,1.22,kg,7.1,8.66,Preparation Trim/Spillage
+WST-000711,2024-08-27,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.35,kg,4.8,16.08,Expired Shelf-Life
+WST-000712,2024-08-27,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.82,cases,14.5,55.39,Expired Shelf-Life
+WST-000713,2024-08-28,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.71,kg,7.5,12.82,Expired Shelf-Life
+WST-000714,2024-08-28,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.69,kg,8.9,41.74,Expired Shelf-Life
+WST-000715,2024-08-28,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.5,kg,3.2,11.2,Expired Shelf-Life
+WST-000716,2024-08-28,LOC-03,INV-016,Fresh Romaine Hearts,Produce,4.72,cases,14.5,68.44,Overcooked/Burnt
+WST-000717,2024-08-29,LOC-02,INV-017,Fresh Genovese Basil,Produce,3.43,kg,12.0,41.16,Overcooked/Burnt
+WST-000718,2024-08-29,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.6,cases,14.5,66.7,Preparation Trim/Spillage
+WST-000719,2024-08-29,LOC-02,INV-017,Fresh Genovese Basil,Produce,2.3,kg,12.0,27.6,Preparation Trim/Spillage
+WST-000720,2024-08-30,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.59,kg,7.5,11.93,Overcooked/Burnt
+WST-000721,2024-08-30,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.38,kg,2.4,5.71,Expired Shelf-Life
+WST-000722,2024-08-30,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.42,kg,6.2,15.0,Preparation Trim/Spillage
+WST-000723,2024-08-30,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.75,kg,6.2,23.25,Expired Shelf-Life
+WST-000724,2024-08-31,LOC-03,INV-002,Shredded Provolone,Dairy,1.96,kg,7.1,13.92,Preparation Trim/Spillage
+WST-000725,2024-08-31,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,3.25,kg,0.85,2.76,Preparation Trim/Spillage
+WST-000726,2024-09-01,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.79,kg,8.9,24.83,Preparation Trim/Spillage
+WST-000727,2024-09-01,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,3.32,kg,8.9,29.55,Drop/Damaged Handling
+WST-000728,2024-09-02,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.2,kg,0.85,3.57,Drop/Damaged Handling
+WST-000729,2024-09-02,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.43,kg,7.5,33.22,Preparation Trim/Spillage
+WST-000730,2024-09-03,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.84,kg,2.4,6.82,Expired Shelf-Life
+WST-000731,2024-09-03,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,4.64,kg,8.9,41.3,Expired Shelf-Life
+WST-000732,2024-09-03,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,3.22,kg,2.4,7.73,Expired Shelf-Life
+WST-000733,2024-09-03,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.11,kg,0.85,3.49,Expired Shelf-Life
+WST-000734,2024-09-04,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.09,kg,6.2,25.36,Overcooked/Burnt
+WST-000735,2024-09-04,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.26,kg,6.2,26.41,Expired Shelf-Life
+WST-000736,2024-09-04,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.65,kg,3.2,5.28,Expired Shelf-Life
+WST-000737,2024-09-05,LOC-04,INV-002,Shredded Provolone,Dairy,4.44,kg,7.1,31.52,Expired Shelf-Life
+WST-000738,2024-09-05,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.55,kg,4.8,21.84,Expired Shelf-Life
+WST-000739,2024-09-05,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,5.1,kg,3.2,16.32,Drop/Damaged Handling
+WST-000740,2024-09-06,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.56,kg,2.4,3.74,Expired Shelf-Life
+WST-000741,2024-09-06,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.27,kg,4.8,20.5,Preparation Trim/Spillage
+WST-000742,2024-09-07,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.16,kg,6.2,13.39,Expired Shelf-Life
+WST-000743,2024-09-07,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.46,kg,12.0,29.52,Expired Shelf-Life
+WST-000744,2024-09-07,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.52,cases,14.5,65.54,Preparation Trim/Spillage
+WST-000745,2024-09-08,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.83,kg,4.8,13.58,Preparation Trim/Spillage
+WST-000746,2024-09-08,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.58,cases,14.5,51.91,Expired Shelf-Life
+WST-000747,2024-09-08,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.9,kg,0.85,2.46,Expired Shelf-Life
+WST-000748,2024-09-09,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.07,kg,8.9,27.32,Preparation Trim/Spillage
+WST-000749,2024-09-09,LOC-02,INV-002,Shredded Provolone,Dairy,1.79,kg,7.1,12.71,Expired Shelf-Life
+WST-000750,2024-09-10,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.66,kg,3.2,8.51,Expired Shelf-Life
+WST-000751,2024-09-10,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,1.3,kg,8.9,11.57,Expired Shelf-Life
+WST-000752,2024-09-10,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,5.14,kg,8.9,45.75,Expired Shelf-Life
+WST-000753,2024-09-11,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.41,kg,2.4,3.38,Expired Shelf-Life
+WST-000754,2024-09-11,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.13,kg,4.8,19.82,Expired Shelf-Life
+WST-000755,2024-09-11,LOC-02,INV-002,Shredded Provolone,Dairy,4.78,kg,7.1,33.94,Expired Shelf-Life
+WST-000756,2024-09-11,LOC-04,INV-016,Fresh Romaine Hearts,Produce,3.18,cases,14.5,46.11,Preparation Trim/Spillage
+WST-000757,2024-09-12,LOC-03,INV-002,Shredded Provolone,Dairy,1.66,kg,7.1,11.79,Expired Shelf-Life
+WST-000758,2024-09-12,LOC-03,INV-002,Shredded Provolone,Dairy,2.57,kg,7.1,18.25,Overcooked/Burnt
+WST-000759,2024-09-12,LOC-02,INV-017,Fresh Genovese Basil,Produce,4.69,kg,12.0,56.28,Expired Shelf-Life
+WST-000760,2024-09-12,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,3.94,kg,0.85,3.35,Drop/Damaged Handling
+WST-000761,2024-09-13,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,1.86,kg,3.2,5.95,Expired Shelf-Life
+WST-000762,2024-09-13,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.52,kg,0.85,3.84,Expired Shelf-Life
+WST-000763,2024-09-14,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,2.29,kg,0.85,1.95,Preparation Trim/Spillage
+WST-000764,2024-09-14,LOC-02,INV-002,Shredded Provolone,Dairy,5.26,kg,7.1,37.35,Drop/Damaged Handling
+WST-000765,2024-09-14,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.61,kg,0.85,3.92,Expired Shelf-Life
+WST-000766,2024-09-15,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,5.02,kg,8.9,44.68,Overcooked/Burnt
+WST-000767,2024-09-15,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,1.35,kg,3.2,4.32,Drop/Damaged Handling
+WST-000768,2024-09-15,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,5.38,kg,3.2,17.22,Preparation Trim/Spillage
+WST-000769,2024-09-16,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,3.16,kg,3.2,10.11,Overcooked/Burnt
+WST-000770,2024-09-16,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,4.52,kg,3.2,14.46,Drop/Damaged Handling
+WST-000771,2024-09-16,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.02,kg,12.0,60.24,Expired Shelf-Life
+WST-000772,2024-09-16,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.13,kg,4.8,19.82,Expired Shelf-Life
+WST-000773,2024-09-17,LOC-03,INV-016,Fresh Romaine Hearts,Produce,5.22,cases,14.5,75.69,Preparation Trim/Spillage
+WST-000774,2024-09-17,LOC-01,INV-016,Fresh Romaine Hearts,Produce,2.12,cases,14.5,30.74,Drop/Damaged Handling
+WST-000775,2024-09-18,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,2.97,kg,0.85,2.52,Overcooked/Burnt
+WST-000776,2024-09-18,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,3.11,kg,0.85,2.64,Expired Shelf-Life
+WST-000777,2024-09-18,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,4.83,kg,0.85,4.11,Expired Shelf-Life
+WST-000778,2024-09-18,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.32,kg,7.5,17.4,Overcooked/Burnt
+WST-000779,2024-09-19,LOC-03,INV-002,Shredded Provolone,Dairy,1.9,kg,7.1,13.49,Expired Shelf-Life
+WST-000780,2024-09-19,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,1.8,kg,8.9,16.02,Preparation Trim/Spillage
+WST-000781,2024-09-19,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.04,kg,2.4,9.7,Expired Shelf-Life
+WST-000782,2024-09-20,LOC-04,INV-017,Fresh Genovese Basil,Produce,3.7,kg,12.0,44.4,Preparation Trim/Spillage
+WST-000783,2024-09-20,LOC-03,INV-017,Fresh Genovese Basil,Produce,4.28,kg,12.0,51.36,Expired Shelf-Life
+WST-000784,2024-09-21,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,2.04,kg,8.9,18.16,Overcooked/Burnt
+WST-000785,2024-09-21,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.56,kg,8.9,31.68,Drop/Damaged Handling
+WST-000786,2024-09-21,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.29,kg,6.2,26.6,Expired Shelf-Life
+WST-000787,2024-09-21,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,1.57,kg,0.85,1.33,Overcooked/Burnt
+WST-000788,2024-09-22,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.82,kg,8.9,25.1,Expired Shelf-Life
+WST-000789,2024-09-22,LOC-01,INV-002,Shredded Provolone,Dairy,4.15,kg,7.1,29.46,Expired Shelf-Life
+WST-000790,2024-09-22,LOC-03,INV-002,Shredded Provolone,Dairy,3.87,kg,7.1,27.48,Expired Shelf-Life
+WST-000791,2024-09-23,LOC-03,INV-017,Fresh Genovese Basil,Produce,2.2,kg,12.0,26.4,Expired Shelf-Life
+WST-000792,2024-09-23,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.09,kg,8.9,36.4,Expired Shelf-Life
+WST-000793,2024-09-23,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,4.15,kg,0.85,3.53,Expired Shelf-Life
+WST-000794,2024-09-24,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.62,kg,3.2,8.38,Expired Shelf-Life
+WST-000795,2024-09-24,LOC-04,INV-016,Fresh Romaine Hearts,Produce,2.21,cases,14.5,32.05,Drop/Damaged Handling
+WST-000796,2024-09-24,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,5.25,kg,0.85,4.46,Expired Shelf-Life
+WST-000797,2024-09-24,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.6,kg,7.5,27.0,Drop/Damaged Handling
+WST-000798,2024-09-25,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.53,kg,3.2,8.1,Preparation Trim/Spillage
+WST-000799,2024-09-25,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.05,kg,8.9,36.05,Overcooked/Burnt
+WST-000800,2024-09-26,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.73,kg,7.5,27.98,Expired Shelf-Life
+WST-000801,2024-09-26,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,3.52,kg,3.2,11.26,Drop/Damaged Handling
+WST-000802,2024-09-26,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.41,kg,2.4,5.78,Expired Shelf-Life
+WST-000803,2024-09-27,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.63,kg,4.8,22.22,Preparation Trim/Spillage
+WST-000804,2024-09-27,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,4.94,kg,2.4,11.86,Expired Shelf-Life
+WST-000805,2024-09-28,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.58,kg,7.5,34.35,Drop/Damaged Handling
+WST-000806,2024-09-28,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,1.43,kg,2.4,3.43,Expired Shelf-Life
+WST-000807,2024-09-28,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,5.23,kg,2.4,12.55,Drop/Damaged Handling
+WST-000808,2024-09-29,LOC-04,INV-016,Fresh Romaine Hearts,Produce,4.71,cases,14.5,68.3,Overcooked/Burnt
+WST-000809,2024-09-29,LOC-04,INV-017,Fresh Genovese Basil,Produce,2.78,kg,12.0,33.36,Expired Shelf-Life
+WST-000810,2024-09-29,LOC-02,INV-002,Shredded Provolone,Dairy,4.46,kg,7.1,31.67,Preparation Trim/Spillage
+WST-000811,2024-09-29,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.85,kg,6.2,30.07,Drop/Damaged Handling
+WST-000812,2024-09-30,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.13,kg,2.4,5.11,Expired Shelf-Life
+WST-000813,2024-09-30,LOC-01,INV-016,Fresh Romaine Hearts,Produce,1.81,cases,14.5,26.25,Expired Shelf-Life
+WST-000814,2024-09-30,LOC-03,INV-017,Fresh Genovese Basil,Produce,5.36,kg,12.0,64.32,Preparation Trim/Spillage
+WST-000815,2024-10-01,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.12,kg,4.8,24.58,Expired Shelf-Life
+WST-000816,2024-10-01,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.46,kg,6.2,33.85,Expired Shelf-Life
+WST-000817,2024-10-02,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.68,kg,0.85,3.98,Overcooked/Burnt
+WST-000818,2024-10-02,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.03,kg,4.8,14.54,Drop/Damaged Handling
+WST-000819,2024-10-02,LOC-02,INV-002,Shredded Provolone,Dairy,3.37,kg,7.1,23.93,Preparation Trim/Spillage
+WST-000820,2024-10-03,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.45,kg,2.4,5.88,Drop/Damaged Handling
+WST-000821,2024-10-03,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,3.05,kg,2.4,7.32,Overcooked/Burnt
+WST-000822,2024-10-04,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,4.54,kg,2.4,10.9,Expired Shelf-Life
+WST-000823,2024-10-04,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.43,kg,4.8,11.66,Drop/Damaged Handling
+WST-000824,2024-10-04,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.14,kg,6.2,31.87,Preparation Trim/Spillage
+WST-000825,2024-10-04,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.36,kg,0.85,3.71,Expired Shelf-Life
+WST-000826,2024-10-05,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.68,kg,4.8,17.66,Overcooked/Burnt
+WST-000827,2024-10-05,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.53,kg,6.2,9.49,Expired Shelf-Life
+WST-000828,2024-10-06,LOC-01,INV-016,Fresh Romaine Hearts,Produce,2.19,cases,14.5,31.75,Overcooked/Burnt
+WST-000829,2024-10-06,LOC-03,INV-002,Shredded Provolone,Dairy,2.49,kg,7.1,17.68,Expired Shelf-Life
+WST-000830,2024-10-07,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.73,kg,7.5,20.48,Preparation Trim/Spillage
+WST-000831,2024-10-07,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,4.28,kg,3.2,13.7,Expired Shelf-Life
+WST-000832,2024-10-08,LOC-03,INV-017,Fresh Genovese Basil,Produce,3.25,kg,12.0,39.0,Expired Shelf-Life
+WST-000833,2024-10-08,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.25,kg,2.4,5.4,Expired Shelf-Life
+WST-000834,2024-10-08,LOC-03,INV-016,Fresh Romaine Hearts,Produce,3.6,cases,14.5,52.2,Expired Shelf-Life
+WST-000835,2024-10-09,LOC-04,INV-016,Fresh Romaine Hearts,Produce,2.71,cases,14.5,39.3,Expired Shelf-Life
+WST-000836,2024-10-09,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.82,cases,14.5,26.39,Expired Shelf-Life
+WST-000837,2024-10-09,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,1.38,kg,0.85,1.17,Drop/Damaged Handling
+WST-000838,2024-10-10,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,4.66,kg,2.4,11.18,Preparation Trim/Spillage
+WST-000839,2024-10-10,LOC-03,INV-016,Fresh Romaine Hearts,Produce,4.36,cases,14.5,63.22,Drop/Damaged Handling
+WST-000840,2024-10-10,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,2.65,kg,2.4,6.36,Expired Shelf-Life
+WST-000841,2024-10-10,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,5.21,kg,0.85,4.43,Drop/Damaged Handling
+WST-000842,2024-10-11,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,3.8,kg,0.85,3.23,Expired Shelf-Life
+WST-000843,2024-10-11,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.31,kg,7.5,24.82,Expired Shelf-Life
+WST-000844,2024-10-12,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,3.31,kg,0.85,2.81,Expired Shelf-Life
+WST-000845,2024-10-12,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.49,kg,6.2,27.84,Preparation Trim/Spillage
+WST-000846,2024-10-12,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.69,kg,3.2,15.01,Preparation Trim/Spillage
+WST-000847,2024-10-12,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.11,kg,6.2,19.28,Expired Shelf-Life
+WST-000848,2024-10-13,LOC-02,INV-002,Shredded Provolone,Dairy,3.39,kg,7.1,24.07,Drop/Damaged Handling
+WST-000849,2024-10-13,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.04,kg,3.2,12.93,Expired Shelf-Life
+WST-000850,2024-10-13,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,5.03,kg,3.2,16.1,Expired Shelf-Life
+WST-000851,2024-10-13,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,2.03,kg,0.85,1.73,Drop/Damaged Handling
+WST-000852,2024-10-14,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,3.85,kg,2.4,9.24,Preparation Trim/Spillage
+WST-000853,2024-10-14,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.77,kg,7.5,35.77,Overcooked/Burnt
+WST-000854,2024-10-15,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.92,kg,4.8,9.22,Overcooked/Burnt
+WST-000855,2024-10-15,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,3.04,kg,2.4,7.3,Preparation Trim/Spillage
+WST-000856,2024-10-15,LOC-03,INV-002,Shredded Provolone,Dairy,2.43,kg,7.1,17.25,Preparation Trim/Spillage
+WST-000857,2024-10-16,LOC-01,INV-002,Shredded Provolone,Dairy,2.98,kg,7.1,21.16,Overcooked/Burnt
+WST-000858,2024-10-16,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,4.1,kg,2.4,9.84,Expired Shelf-Life
+WST-000859,2024-10-17,LOC-03,INV-002,Shredded Provolone,Dairy,5.05,kg,7.1,35.85,Overcooked/Burnt
+WST-000860,2024-10-17,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,3.59,kg,3.2,11.49,Expired Shelf-Life
+WST-000861,2024-10-18,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.27,kg,4.8,6.1,Drop/Damaged Handling
+WST-000862,2024-10-18,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.51,kg,6.2,15.56,Expired Shelf-Life
+WST-000863,2024-10-18,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,1.95,kg,3.2,6.24,Preparation Trim/Spillage
+WST-000864,2024-10-19,LOC-04,INV-002,Shredded Provolone,Dairy,1.68,kg,7.1,11.93,Preparation Trim/Spillage
+WST-000865,2024-10-19,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.25,kg,4.8,6.0,Expired Shelf-Life
+WST-000866,2024-10-19,LOC-04,INV-002,Shredded Provolone,Dairy,5.01,kg,7.1,35.57,Expired Shelf-Life
+WST-000867,2024-10-19,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.11,kg,4.8,19.73,Overcooked/Burnt
+WST-000868,2024-10-20,LOC-03,INV-002,Shredded Provolone,Dairy,2.15,kg,7.1,15.26,Preparation Trim/Spillage
+WST-000869,2024-10-20,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,1.23,kg,3.2,3.94,Expired Shelf-Life
+WST-000870,2024-10-20,LOC-04,INV-002,Shredded Provolone,Dairy,2.48,kg,7.1,17.61,Expired Shelf-Life
+WST-000871,2024-10-20,LOC-04,INV-002,Shredded Provolone,Dairy,3.18,kg,7.1,22.58,Overcooked/Burnt
+WST-000872,2024-10-21,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.53,kg,6.2,9.49,Drop/Damaged Handling
+WST-000873,2024-10-21,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,5.44,kg,8.9,48.42,Overcooked/Burnt
+WST-000874,2024-10-21,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.04,kg,4.8,9.79,Expired Shelf-Life
+WST-000875,2024-10-21,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.04,kg,12.0,60.48,Drop/Damaged Handling
+WST-000876,2024-10-22,LOC-03,INV-016,Fresh Romaine Hearts,Produce,5.31,cases,14.5,76.99,Expired Shelf-Life
+WST-000877,2024-10-22,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.6,kg,6.2,9.92,Preparation Trim/Spillage
+WST-000878,2024-10-22,LOC-04,INV-016,Fresh Romaine Hearts,Produce,3.94,cases,14.5,57.13,Expired Shelf-Life
+WST-000879,2024-10-23,LOC-01,INV-017,Fresh Genovese Basil,Produce,4.84,kg,12.0,58.08,Expired Shelf-Life
+WST-000880,2024-10-23,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.63,cases,14.5,52.63,Expired Shelf-Life
+WST-000881,2024-10-23,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.96,kg,4.8,9.41,Expired Shelf-Life
+WST-000882,2024-10-23,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.19,kg,6.2,25.98,Expired Shelf-Life
+WST-000883,2024-10-24,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,5.12,kg,2.4,12.29,Expired Shelf-Life
+WST-000884,2024-10-24,LOC-03,INV-002,Shredded Provolone,Dairy,4.53,kg,7.1,32.16,Preparation Trim/Spillage
+WST-000885,2024-10-24,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.83,kg,6.2,11.35,Preparation Trim/Spillage
+WST-000886,2024-10-24,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.81,kg,3.2,15.39,Expired Shelf-Life
+WST-000887,2024-10-25,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.74,kg,6.2,29.39,Preparation Trim/Spillage
+WST-000888,2024-10-25,LOC-04,INV-016,Fresh Romaine Hearts,Produce,3.39,cases,14.5,49.16,Overcooked/Burnt
+WST-000889,2024-10-26,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.02,kg,7.5,15.15,Preparation Trim/Spillage
+WST-000890,2024-10-26,LOC-01,INV-016,Fresh Romaine Hearts,Produce,1.41,cases,14.5,20.45,Preparation Trim/Spillage
+WST-000891,2024-10-26,LOC-02,INV-016,Fresh Romaine Hearts,Produce,4.13,cases,14.5,59.88,Expired Shelf-Life
+WST-000892,2024-10-26,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.83,kg,3.2,9.06,Expired Shelf-Life
+WST-000893,2024-10-27,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.71,kg,2.4,6.5,Drop/Damaged Handling
+WST-000894,2024-10-27,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.97,kg,0.85,4.22,Overcooked/Burnt
+WST-000895,2024-10-28,LOC-03,INV-002,Shredded Provolone,Dairy,4.59,kg,7.1,32.59,Expired Shelf-Life
+WST-000896,2024-10-28,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.56,kg,7.5,26.7,Expired Shelf-Life
+WST-000897,2024-10-28,LOC-02,INV-017,Fresh Genovese Basil,Produce,3.55,kg,12.0,42.6,Expired Shelf-Life
+WST-000898,2024-10-29,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.93,kg,7.5,36.97,Expired Shelf-Life
+WST-000899,2024-10-29,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.6,kg,7.5,34.5,Expired Shelf-Life
+WST-000900,2024-10-29,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,1.71,kg,3.2,5.47,Drop/Damaged Handling
+WST-000901,2024-10-30,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,1.73,kg,0.85,1.47,Preparation Trim/Spillage
+WST-000902,2024-10-30,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.93,kg,4.8,14.06,Drop/Damaged Handling
+WST-000903,2024-10-30,LOC-04,INV-002,Shredded Provolone,Dairy,5.38,kg,7.1,38.2,Preparation Trim/Spillage
+WST-000904,2024-10-31,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,1.37,kg,6.2,8.49,Expired Shelf-Life
+WST-000905,2024-10-31,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.79,cases,14.5,25.96,Expired Shelf-Life
+WST-000906,2024-10-31,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.71,cases,14.5,68.3,Preparation Trim/Spillage
+WST-000907,2024-11-01,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.83,cases,14.5,70.03,Drop/Damaged Handling
+WST-000908,2024-11-01,LOC-01,INV-002,Shredded Provolone,Dairy,4.71,kg,7.1,33.44,Expired Shelf-Life
+WST-000909,2024-11-02,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.97,kg,2.4,11.93,Expired Shelf-Life
+WST-000910,2024-11-02,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,1.34,kg,3.2,4.29,Expired Shelf-Life
+WST-000911,2024-11-02,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.07,kg,7.5,23.02,Preparation Trim/Spillage
+WST-000912,2024-11-02,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,2.07,kg,8.9,18.42,Drop/Damaged Handling
+WST-000913,2024-11-03,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,4.59,kg,0.85,3.9,Overcooked/Burnt
+WST-000914,2024-11-03,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,2.89,kg,3.2,9.25,Preparation Trim/Spillage
+WST-000915,2024-11-04,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.86,kg,6.2,17.73,Expired Shelf-Life
+WST-000916,2024-11-04,LOC-04,INV-002,Shredded Provolone,Dairy,3.79,kg,7.1,26.91,Drop/Damaged Handling
+WST-000917,2024-11-04,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,4.05,kg,0.85,3.44,Overcooked/Burnt
+WST-000918,2024-11-04,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,3.32,kg,3.2,10.62,Preparation Trim/Spillage
+WST-000919,2024-11-05,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,1.27,kg,4.8,6.1,Drop/Damaged Handling
+WST-000920,2024-11-05,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,5.08,kg,0.85,4.32,Preparation Trim/Spillage
+WST-000921,2024-11-06,LOC-02,INV-017,Fresh Genovese Basil,Produce,5.5,kg,12.0,66.0,Expired Shelf-Life
+WST-000922,2024-11-06,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.46,kg,7.5,10.95,Expired Shelf-Life
+WST-000923,2024-11-07,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.13,kg,6.2,31.81,Expired Shelf-Life
+WST-000924,2024-11-07,LOC-03,INV-002,Shredded Provolone,Dairy,3.2,kg,7.1,22.72,Preparation Trim/Spillage
+WST-000925,2024-11-07,LOC-03,INV-002,Shredded Provolone,Dairy,1.99,kg,7.1,14.13,Preparation Trim/Spillage
+WST-000926,2024-11-07,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.01,cases,14.5,43.64,Preparation Trim/Spillage
+WST-000927,2024-11-08,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.16,kg,8.9,37.02,Preparation Trim/Spillage
+WST-000928,2024-11-08,LOC-04,INV-002,Shredded Provolone,Dairy,1.56,kg,7.1,11.08,Expired Shelf-Life
+WST-000929,2024-11-08,LOC-03,INV-002,Shredded Provolone,Dairy,1.38,kg,7.1,9.8,Preparation Trim/Spillage
+WST-000930,2024-11-09,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.3,kg,7.5,9.75,Drop/Damaged Handling
+WST-000931,2024-11-09,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.05,kg,4.8,14.64,Overcooked/Burnt
+WST-000932,2024-11-09,LOC-03,INV-002,Shredded Provolone,Dairy,1.46,kg,7.1,10.37,Expired Shelf-Life
+WST-000933,2024-11-10,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.31,kg,7.5,39.82,Drop/Damaged Handling
+WST-000934,2024-11-10,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.09,kg,6.2,25.36,Drop/Damaged Handling
+WST-000935,2024-11-10,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.36,kg,3.2,10.75,Expired Shelf-Life
+WST-000936,2024-11-11,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.68,kg,7.5,12.6,Expired Shelf-Life
+WST-000937,2024-11-11,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.4,kg,7.5,18.0,Expired Shelf-Life
+WST-000938,2024-11-12,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.51,kg,7.5,26.32,Preparation Trim/Spillage
+WST-000939,2024-11-12,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.39,kg,0.85,1.18,Expired Shelf-Life
+WST-000940,2024-11-13,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.39,kg,4.8,21.07,Expired Shelf-Life
+WST-000941,2024-11-13,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,1.31,kg,8.9,11.66,Expired Shelf-Life
+WST-000942,2024-11-13,LOC-04,INV-016,Fresh Romaine Hearts,Produce,2.4,cases,14.5,34.8,Drop/Damaged Handling
+WST-000943,2024-11-13,LOC-03,INV-016,Fresh Romaine Hearts,Produce,1.6,cases,14.5,23.2,Overcooked/Burnt
+WST-000944,2024-11-14,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.67,kg,6.2,16.55,Expired Shelf-Life
+WST-000945,2024-11-14,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.07,kg,6.2,12.83,Overcooked/Burnt
+WST-000946,2024-11-14,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.94,kg,7.5,37.05,Overcooked/Burnt
+WST-000947,2024-11-14,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.17,kg,4.8,15.22,Preparation Trim/Spillage
+WST-000948,2024-11-15,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.98,kg,7.5,22.35,Expired Shelf-Life
+WST-000949,2024-11-15,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.19,kg,6.2,32.18,Overcooked/Burnt
+WST-000950,2024-11-15,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,2.21,kg,0.85,1.88,Expired Shelf-Life
+WST-000951,2024-11-15,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.07,kg,7.5,38.03,Preparation Trim/Spillage
+WST-000952,2024-11-16,LOC-04,INV-002,Shredded Provolone,Dairy,4.66,kg,7.1,33.09,Expired Shelf-Life
+WST-000953,2024-11-16,LOC-01,INV-017,Fresh Genovese Basil,Produce,3.79,kg,12.0,45.48,Expired Shelf-Life
+WST-000954,2024-11-16,LOC-01,INV-016,Fresh Romaine Hearts,Produce,5.33,cases,14.5,77.28,Drop/Damaged Handling
+WST-000955,2024-11-17,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,2.46,kg,3.2,7.87,Expired Shelf-Life
+WST-000956,2024-11-17,LOC-01,INV-002,Shredded Provolone,Dairy,2.7,kg,7.1,19.17,Expired Shelf-Life
+WST-000957,2024-11-18,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.93,kg,6.2,24.37,Preparation Trim/Spillage
+WST-000958,2024-11-18,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,2.2,kg,0.85,1.87,Preparation Trim/Spillage
+WST-000959,2024-11-18,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.48,kg,4.8,11.9,Preparation Trim/Spillage
+WST-000960,2024-11-19,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.58,kg,6.2,16.0,Expired Shelf-Life
+WST-000961,2024-11-19,LOC-01,INV-017,Fresh Genovese Basil,Produce,2.26,kg,12.0,27.12,Expired Shelf-Life
+WST-000962,2024-11-19,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.38,cases,14.5,34.51,Preparation Trim/Spillage
+WST-000963,2024-11-20,LOC-02,INV-016,Fresh Romaine Hearts,Produce,3.92,cases,14.5,56.84,Expired Shelf-Life
+WST-000964,2024-11-20,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,3.58,kg,2.4,8.59,Drop/Damaged Handling
+WST-000965,2024-11-21,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.76,kg,3.2,15.23,Overcooked/Burnt
+WST-000966,2024-11-21,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,5.48,kg,4.8,26.3,Expired Shelf-Life
+WST-000967,2024-11-21,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.63,kg,6.2,16.31,Expired Shelf-Life
+WST-000968,2024-11-22,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.61,kg,4.8,12.53,Overcooked/Burnt
+WST-000969,2024-11-22,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,3.65,kg,3.2,11.68,Expired Shelf-Life
+WST-000970,2024-11-22,LOC-03,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.9,kg,4.8,13.92,Overcooked/Burnt
+WST-000971,2024-11-22,LOC-02,INV-016,Fresh Romaine Hearts,Produce,5.07,cases,14.5,73.52,Drop/Damaged Handling
+WST-000972,2024-11-23,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.62,cases,14.5,23.49,Expired Shelf-Life
+WST-000973,2024-11-23,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.11,cases,14.5,30.59,Expired Shelf-Life
+WST-000974,2024-11-24,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.19,kg,4.8,20.11,Preparation Trim/Spillage
+WST-000975,2024-11-24,LOC-01,INV-014,Fresh Green Bell Peppers,Produce,2.33,kg,2.4,5.59,Expired Shelf-Life
+WST-000976,2024-11-24,LOC-02,INV-016,Fresh Romaine Hearts,Produce,1.79,cases,14.5,25.96,Expired Shelf-Life
+WST-000977,2024-11-25,LOC-03,INV-016,Fresh Romaine Hearts,Produce,1.42,cases,14.5,20.59,Preparation Trim/Spillage
+WST-000978,2024-11-25,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,3.62,kg,3.2,11.58,Preparation Trim/Spillage
+WST-000979,2024-11-26,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,2.01,kg,8.9,17.89,Expired Shelf-Life
+WST-000980,2024-11-26,LOC-01,INV-002,Shredded Provolone,Dairy,5.01,kg,7.1,35.57,Preparation Trim/Spillage
+WST-000981,2024-11-27,LOC-03,INV-017,Fresh Genovese Basil,Produce,5.35,kg,12.0,64.2,Overcooked/Burnt
+WST-000982,2024-11-27,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,4.03,kg,3.2,12.9,Preparation Trim/Spillage
+WST-000983,2024-11-28,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.26,kg,6.2,32.61,Expired Shelf-Life
+WST-000984,2024-11-28,LOC-02,INV-002,Shredded Provolone,Dairy,2.76,kg,7.1,19.6,Overcooked/Burnt
+WST-000985,2024-11-29,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.92,cases,14.5,27.84,Drop/Damaged Handling
+WST-000986,2024-11-29,LOC-01,INV-017,Fresh Genovese Basil,Produce,3.84,kg,12.0,46.08,Expired Shelf-Life
+WST-000987,2024-11-29,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,5.21,kg,2.4,12.5,Drop/Damaged Handling
+WST-000988,2024-11-29,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,5.26,kg,3.2,16.83,Expired Shelf-Life
+WST-000989,2024-11-30,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.44,kg,4.8,16.51,Drop/Damaged Handling
+WST-000990,2024-11-30,LOC-02,INV-002,Shredded Provolone,Dairy,1.52,kg,7.1,10.79,Expired Shelf-Life
+WST-000991,2024-11-30,LOC-02,INV-002,Shredded Provolone,Dairy,1.53,kg,7.1,10.86,Expired Shelf-Life
+WST-000992,2024-11-30,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,1.53,kg,8.9,13.62,Preparation Trim/Spillage
+WST-000993,2024-12-01,LOC-01,INV-004,High-Gluten Pizza Flour,Dry Goods,1.86,kg,0.85,1.58,Expired Shelf-Life
+WST-000994,2024-12-01,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.59,kg,8.9,40.85,Expired Shelf-Life
+WST-000995,2024-12-01,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.28,kg,8.9,29.19,Expired Shelf-Life
+WST-000996,2024-12-01,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.89,cases,14.5,27.4,Expired Shelf-Life
+WST-000997,2024-12-02,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,2.91,kg,0.85,2.47,Drop/Damaged Handling
+WST-000998,2024-12-02,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.55,kg,3.2,14.56,Expired Shelf-Life
+WST-000999,2024-12-02,LOC-02,INV-002,Shredded Provolone,Dairy,5.47,kg,7.1,38.84,Expired Shelf-Life
+WST-001000,2024-12-03,LOC-01,INV-016,Fresh Romaine Hearts,Produce,3.6,cases,14.5,52.2,Expired Shelf-Life
+WST-001001,2024-12-03,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,1.35,kg,8.9,12.02,Expired Shelf-Life
+WST-001002,2024-12-03,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.65,kg,6.2,28.83,Overcooked/Burnt
+WST-001003,2024-12-03,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,4.26,kg,6.2,26.41,Expired Shelf-Life
+WST-001004,2024-12-04,LOC-02,INV-002,Shredded Provolone,Dairy,1.65,kg,7.1,11.71,Expired Shelf-Life
+WST-001005,2024-12-04,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.37,kg,7.5,17.78,Overcooked/Burnt
+WST-001006,2024-12-04,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.82,kg,4.8,18.34,Preparation Trim/Spillage
+WST-001007,2024-12-04,LOC-04,INV-004,High-Gluten Pizza Flour,Dry Goods,3.48,kg,0.85,2.96,Preparation Trim/Spillage
+WST-001008,2024-12-05,LOC-02,INV-017,Fresh Genovese Basil,Produce,4.15,kg,12.0,49.8,Drop/Damaged Handling
+WST-001009,2024-12-05,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,2.58,kg,7.5,19.35,Overcooked/Burnt
+WST-001010,2024-12-05,LOC-04,INV-016,Fresh Romaine Hearts,Produce,2.69,cases,14.5,39.01,Drop/Damaged Handling
+WST-001011,2024-12-05,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,2.31,kg,3.2,7.39,Drop/Damaged Handling
+WST-001012,2024-12-06,LOC-01,INV-016,Fresh Romaine Hearts,Produce,4.46,cases,14.5,64.67,Drop/Damaged Handling
+WST-001013,2024-12-06,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,5.4,kg,3.2,17.28,Preparation Trim/Spillage
+WST-001014,2024-12-06,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.83,kg,7.5,36.23,Expired Shelf-Life
+WST-001015,2024-12-07,LOC-03,INV-001,Whole Milk Mozzarella (Blocks),Dairy,5.42,kg,6.2,33.6,Drop/Damaged Handling
+WST-001016,2024-12-07,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,4.43,kg,8.9,39.43,Expired Shelf-Life
+WST-001017,2024-12-07,LOC-02,INV-002,Shredded Provolone,Dairy,1.42,kg,7.1,10.08,Expired Shelf-Life
+WST-001018,2024-12-07,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.17,kg,3.2,6.94,Expired Shelf-Life
+WST-001019,2024-12-08,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,1.74,kg,3.2,5.57,Expired Shelf-Life
+WST-001020,2024-12-08,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,2.05,kg,3.2,6.56,Expired Shelf-Life
+WST-001021,2024-12-09,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,3.13,kg,8.9,27.86,Preparation Trim/Spillage
+WST-001022,2024-12-09,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.65,kg,2.4,3.96,Drop/Damaged Handling
+WST-001023,2024-12-09,LOC-04,INV-017,Fresh Genovese Basil,Produce,1.89,kg,12.0,22.68,Drop/Damaged Handling
+WST-001024,2024-12-10,LOC-03,INV-002,Shredded Provolone,Dairy,2.06,kg,7.1,14.63,Expired Shelf-Life
+WST-001025,2024-12-10,LOC-02,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.89,kg,6.2,24.12,Expired Shelf-Life
+WST-001026,2024-12-10,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.69,kg,6.2,16.68,Preparation Trim/Spillage
+WST-001027,2024-12-10,LOC-04,INV-013,Fresh White Button Mushrooms,Produce,2.49,kg,3.2,7.97,Overcooked/Burnt
+WST-001028,2024-12-11,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,4.56,kg,4.8,21.89,Preparation Trim/Spillage
+WST-001029,2024-12-11,LOC-01,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.12,kg,7.5,38.4,Preparation Trim/Spillage
+WST-001030,2024-12-11,LOC-03,INV-008,Cured Sliced Pepperoni,Proteins,1.7,kg,8.9,15.13,Drop/Damaged Handling
+WST-001031,2024-12-11,LOC-02,INV-017,Fresh Genovese Basil,Produce,1.56,kg,12.0,18.72,Overcooked/Burnt
+WST-001032,2024-12-12,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.39,kg,7.5,32.92,Expired Shelf-Life
+WST-001033,2024-12-12,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,3.23,kg,8.9,28.75,Expired Shelf-Life
+WST-001034,2024-12-12,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,3.8,kg,8.9,33.82,Preparation Trim/Spillage
+WST-001035,2024-12-12,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,4.37,kg,8.9,38.89,Expired Shelf-Life
+WST-001036,2024-12-13,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.59,cases,14.5,23.05,Expired Shelf-Life
+WST-001037,2024-12-13,LOC-04,INV-016,Fresh Romaine Hearts,Produce,3.39,cases,14.5,49.16,Expired Shelf-Life
+WST-001038,2024-12-14,LOC-02,INV-002,Shredded Provolone,Dairy,2.7,kg,7.1,19.17,Preparation Trim/Spillage
+WST-001039,2024-12-14,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.17,kg,6.2,19.65,Preparation Trim/Spillage
+WST-001040,2024-12-14,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,4.63,kg,7.5,34.73,Expired Shelf-Life
+WST-001041,2024-12-14,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.56,kg,4.8,17.09,Expired Shelf-Life
+WST-001042,2024-12-15,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.64,kg,2.4,3.94,Expired Shelf-Life
+WST-001043,2024-12-15,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.01,kg,6.2,12.46,Expired Shelf-Life
+WST-001044,2024-12-15,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,3.56,kg,2.4,8.54,Overcooked/Burnt
+WST-001045,2024-12-15,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,4.33,kg,8.9,38.54,Expired Shelf-Life
+WST-001046,2024-12-16,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,1.25,kg,2.4,3.0,Drop/Damaged Handling
+WST-001047,2024-12-16,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.81,cases,14.5,40.74,Expired Shelf-Life
+WST-001048,2024-12-16,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,5.47,kg,7.5,41.02,Expired Shelf-Life
+WST-001049,2024-12-17,LOC-04,INV-002,Shredded Provolone,Dairy,4.17,kg,7.1,29.61,Overcooked/Burnt
+WST-001050,2024-12-17,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,2.87,kg,2.4,6.89,Expired Shelf-Life
+WST-001051,2024-12-17,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,4.93,kg,3.2,15.78,Drop/Damaged Handling
+WST-001052,2024-12-18,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.08,kg,2.4,9.79,Preparation Trim/Spillage
+WST-001053,2024-12-18,LOC-02,INV-014,Fresh Green Bell Peppers,Produce,1.89,kg,2.4,4.54,Expired Shelf-Life
+WST-001054,2024-12-18,LOC-03,INV-002,Shredded Provolone,Dairy,4.63,kg,7.1,32.87,Expired Shelf-Life
+WST-001055,2024-12-18,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,2.39,kg,8.9,21.27,Drop/Damaged Handling
+WST-001056,2024-12-19,LOC-04,INV-002,Shredded Provolone,Dairy,1.29,kg,7.1,9.16,Expired Shelf-Life
+WST-001057,2024-12-19,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.94,kg,6.2,24.43,Expired Shelf-Life
+WST-001058,2024-12-19,LOC-03,INV-013,Fresh White Button Mushrooms,Produce,4.09,kg,3.2,13.09,Preparation Trim/Spillage
+WST-001059,2024-12-19,LOC-02,INV-017,Fresh Genovese Basil,Produce,4.41,kg,12.0,52.92,Preparation Trim/Spillage
+WST-001060,2024-12-20,LOC-04,INV-002,Shredded Provolone,Dairy,2.5,kg,7.1,17.75,Drop/Damaged Handling
+WST-001061,2024-12-20,LOC-02,INV-013,Fresh White Button Mushrooms,Produce,2.89,kg,3.2,9.25,Expired Shelf-Life
+WST-001062,2024-12-21,LOC-04,INV-008,Cured Sliced Pepperoni,Proteins,2.56,kg,8.9,22.78,Preparation Trim/Spillage
+WST-001063,2024-12-21,LOC-02,INV-004,High-Gluten Pizza Flour,Dry Goods,4.63,kg,0.85,3.94,Preparation Trim/Spillage
+WST-001064,2024-12-21,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,2.02,kg,2.4,4.85,Overcooked/Burnt
+WST-001065,2024-12-21,LOC-01,INV-017,Fresh Genovese Basil,Produce,3.25,kg,12.0,39.0,Drop/Damaged Handling
+WST-001066,2024-12-22,LOC-03,INV-002,Shredded Provolone,Dairy,1.56,kg,7.1,11.08,Expired Shelf-Life
+WST-001067,2024-12-22,LOC-03,INV-002,Shredded Provolone,Dairy,3.09,kg,7.1,21.94,Overcooked/Burnt
+WST-001068,2024-12-23,LOC-01,INV-008,Cured Sliced Pepperoni,Proteins,3.5,kg,8.9,31.15,Preparation Trim/Spillage
+WST-001069,2024-12-23,LOC-03,INV-017,Fresh Genovese Basil,Produce,1.89,kg,12.0,22.68,Drop/Damaged Handling
+WST-001070,2024-12-24,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.28,kg,6.2,20.34,Expired Shelf-Life
+WST-001071,2024-12-24,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,3.48,kg,2.4,8.35,Overcooked/Burnt
+WST-001072,2024-12-24,LOC-01,INV-017,Fresh Genovese Basil,Produce,1.4,kg,12.0,16.8,Drop/Damaged Handling
+WST-001073,2024-12-24,LOC-04,INV-010,Sous-Vide Diced Chicken Breast,Proteins,3.61,kg,7.5,27.07,Expired Shelf-Life
+WST-001074,2024-12-25,LOC-03,INV-002,Shredded Provolone,Dairy,5.36,kg,7.1,38.06,Overcooked/Burnt
+WST-001075,2024-12-25,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,4.35,kg,3.2,13.92,Overcooked/Burnt
+WST-001076,2024-12-25,LOC-03,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.99,kg,7.5,14.93,Expired Shelf-Life
+WST-001077,2024-12-25,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,1.63,kg,3.2,5.22,Drop/Damaged Handling
+WST-001078,2024-12-26,LOC-02,INV-008,Cured Sliced Pepperoni,Proteins,1.3,kg,8.9,11.57,Expired Shelf-Life
+WST-001079,2024-12-26,LOC-04,INV-014,Fresh Green Bell Peppers,Produce,4.82,kg,2.4,11.57,Expired Shelf-Life
+WST-001080,2024-12-27,LOC-03,INV-004,High-Gluten Pizza Flour,Dry Goods,1.62,kg,0.85,1.38,Expired Shelf-Life
+WST-001081,2024-12-27,LOC-02,INV-002,Shredded Provolone,Dairy,3.19,kg,7.1,22.65,Expired Shelf-Life
+WST-001082,2024-12-27,LOC-01,INV-012,Jumbo Chicken Wings (Raw),Proteins,2.73,kg,4.8,13.1,Drop/Damaged Handling
+WST-001083,2024-12-28,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.65,cases,14.5,38.42,Drop/Damaged Handling
+WST-001084,2024-12-28,LOC-03,INV-014,Fresh Green Bell Peppers,Produce,3.18,kg,2.4,7.63,Expired Shelf-Life
+WST-001085,2024-12-28,LOC-01,INV-017,Fresh Genovese Basil,Produce,5.36,kg,12.0,64.32,Preparation Trim/Spillage
+WST-001086,2024-12-28,LOC-04,INV-001,Whole Milk Mozzarella (Blocks),Dairy,2.76,kg,6.2,17.11,Preparation Trim/Spillage
+WST-001087,2024-12-29,LOC-01,INV-001,Whole Milk Mozzarella (Blocks),Dairy,3.67,kg,6.2,22.75,Preparation Trim/Spillage
+WST-001088,2024-12-29,LOC-02,INV-010,Sous-Vide Diced Chicken Breast,Proteins,1.27,kg,7.5,9.53,Drop/Damaged Handling
+WST-001089,2024-12-30,LOC-02,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.07,kg,4.8,14.74,Preparation Trim/Spillage
+WST-001090,2024-12-30,LOC-01,INV-013,Fresh White Button Mushrooms,Produce,2.78,kg,3.2,8.9,Preparation Trim/Spillage
+WST-001091,2024-12-31,LOC-03,INV-016,Fresh Romaine Hearts,Produce,2.86,cases,14.5,41.47,Expired Shelf-Life
+WST-001092,2024-12-31,LOC-04,INV-012,Jumbo Chicken Wings (Raw),Proteins,3.03,kg,4.8,14.54,Expired Shelf-Life
+WST-001093,2024-12-31,LOC-04,INV-016,Fresh Romaine Hearts,Produce,1.47,cases,14.5,21.32,Expired Shelf-Life
+WST-001094,2024-12-31,LOC-01,INV-016,Fresh Romaine Hearts,Produce,1.35,cases,14.5,19.58,Expired Shelf-Life

@@ -1,0 +1,5 @@
+LocationID,LocationName,District,StoreType,SeatingCapacity
+LOC-01,Downtown Flagship,Financial District,Full Dine-in & Delivery,120
+LOC-02,Suburb Center,Westside Suburbs,Casual Dine-in & Drive-thru,85
+LOC-03,Uptown Mall Food Court,Northway Shopping Mall,Express Counter,40
+LOC-04,Metro Transit Station,Central Metro Concourse,Grab & Go Kiosk,0

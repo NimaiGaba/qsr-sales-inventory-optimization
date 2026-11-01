@@ -1,0 +1,33 @@
+ProductID,ProductName,Category,Size,UnitPrice,UnitCost,TargetMarginPct
+PRD-001,Margherita Classic,Pizza,Regular,12.5,3.5,72.0
+PRD-002,Margherita Classic,Pizza,Large,16.5,4.6,72.1
+PRD-003,Pepperoni Feast,Pizza,Regular,14.5,4.2,71.0
+PRD-004,Pepperoni Feast,Pizza,Large,18.5,5.5,70.3
+PRD-005,BBQ Chicken Supreme,Pizza,Regular,15.5,4.8,69.0
+PRD-006,BBQ Chicken Supreme,Pizza,Large,19.5,6.1,68.7
+PRD-007,Veggie Garden Delight,Pizza,Regular,13.0,3.8,70.8
+PRD-008,Veggie Garden Delight,Pizza,Large,17.0,5.0,70.6
+PRD-009,Four Cheese Artisan,Pizza,Regular,14.0,4.3,69.3
+PRD-010,Four Cheese Artisan,Pizza,Large,18.0,5.7,68.3
+PRD-011,Spicy Diablo Sausage,Pizza,Regular,15.0,4.5,70.0
+PRD-012,Spicy Diablo Sausage,Pizza,Large,19.0,5.9,68.9
+PRD-013,Garlic Butter Knots (6pc),Sides,Standard,5.5,1.2,78.2
+PRD-014,Cheesy Stuffed Bread,Sides,Standard,6.5,1.8,72.3
+PRD-015,Buffalo Wings (8pc),Sides,Standard,9.5,3.4,64.2
+PRD-016,Honey BBQ Wings (8pc),Sides,Standard,9.5,3.4,64.2
+PRD-017,Mediterranean Caesar Salad,Sides,Regular,7.0,2.1,70.0
+PRD-018,Crispy Seasoned Wedges,Sides,Standard,4.5,0.9,80.0
+PRD-019,Fountain Soda (Coke/Sprite),Beverages,Regular,2.75,0.35,87.3
+PRD-020,Fountain Soda (Coke/Sprite),Beverages,Large,3.5,0.45,87.1
+PRD-021,Artisan Brewed Iced Tea,Beverages,Large,3.75,0.5,86.7
+PRD-022,Fresh Squeezed Lemonade,Beverages,Large,4.0,0.7,82.5
+PRD-023,Sparkling Mineral Water,Beverages,Standard,2.5,0.6,76.0
+PRD-024,Organic Craft Kombucha,Beverages,Standard,4.75,1.8,62.1
+PRD-025,Warm Choco Lava Cake,Desserts,Standard,6.0,1.6,73.3
+PRD-026,Cinnamon Sugar Bites,Desserts,Standard,5.0,1.1,78.0
+PRD-027,New York Cheesecake Slice,Desserts,Standard,5.5,1.5,72.7
+PRD-028,Italian Cannoli Duo,Desserts,Standard,6.5,1.9,70.8
+PRD-029,Lunch Rush Solo Combo,Combos,Combo,14.99,4.5,70.0
+PRD-030,Artisan Duo Feast,Combos,Combo,26.99,8.2,69.6
+PRD-031,Family Game Night Box,Combos,Combo,42.99,13.5,68.6
+PRD-032,Party Supreme Bundle,Combos,Combo,64.99,21.0,67.7
