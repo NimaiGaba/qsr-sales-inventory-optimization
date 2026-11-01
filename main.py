@@ -101,6 +101,8 @@ def step_3_load_sqlite_database(tables: dict):
     tables["locations"].to_sql("locations", conn, if_exists="replace", index=False)
     tables["suppliers"].to_sql("suppliers", conn, if_exists="replace", index=False)
     tables["inventory"].to_sql("inventory", conn, if_exists="replace", index=False)
+    if "recipes" in tables and not tables["recipes"].empty:
+        tables["recipes"].to_sql("recipes", conn, if_exists="replace", index=False)
     tables["orders"].to_sql("orders", conn, if_exists="replace", index=False)
     tables["order_details"].to_sql("order_details", conn, if_exists="replace", index=False)
     tables["waste"].to_sql("inventory_waste", conn, if_exists="replace", index=False)
@@ -117,7 +119,8 @@ def step_3_load_sqlite_database(tables: dict):
     """)
     conn.commit()
     conn.close()
-    logger.info(f"SQLite Database built successfully: {DB_PATH}")
+    logger.info(f"SQLite Database built successfully with all tables: {DB_PATH}")
+
 
 
 def step_4_execute_sql_scripts() -> dict:
@@ -171,11 +174,19 @@ def step_5_python_analytics(tables: dict) -> dict:
     inventory = tables["inventory"]
     suppliers = tables["suppliers"]
     waste = tables["waste"]
+    recipes = tables.get("recipes")
 
     sales_res = run_sales_analysis(orders, details, locations)
     product_res = run_product_analysis(details)
     time_res = run_time_analysis(orders)
-    inv_res = run_inventory_analysis(inventory, suppliers, waste, orders)
+    inv_res = run_inventory_analysis(
+        df_inventory=inventory,
+        df_suppliers=suppliers,
+        df_waste=waste,
+        df_orders=orders,
+        df_details=details,
+        df_recipes=recipes
+    )
     prof_res = run_profitability_analysis(orders, details, locations)
 
     return {
@@ -203,12 +214,13 @@ def step_6_generate_charts(tables: dict) -> list:
     return charts
 
 
-def step_7_export_dashboard_csvs(tables: dict):
-    """Export clean, star-schema CSV tables for Power BI import."""
+def step_7_export_dashboard_csvs(tables: dict, analytics_res: dict):
+    """Export clean, star-schema CSV tables and operational reports for Power BI import."""
     logger.info("=" * 70)
     logger.info("STEP 7: EXPORTING DASHBOARD-READY CSV FILES")
     logger.info("=" * 70)
     os.makedirs(EXPORTS_DIR, exist_ok=True)
+    os.makedirs(REPORTS_DIR, exist_ok=True)
 
     tables["orders"].to_csv(os.path.join(EXPORTS_DIR, "FactOrders.csv"), index=False)
     tables["order_details"].to_csv(os.path.join(EXPORTS_DIR, "FactOrderItems.csv"), index=False)
@@ -216,6 +228,9 @@ def step_7_export_dashboard_csvs(tables: dict):
     tables["locations"].to_csv(os.path.join(EXPORTS_DIR, "DimLocations.csv"), index=False)
     tables["inventory"].to_csv(os.path.join(EXPORTS_DIR, "DimInventory.csv"), index=False)
     tables["waste"].to_csv(os.path.join(EXPORTS_DIR, "FactWaste.csv"), index=False)
+
+    if "recipes" in tables and not tables["recipes"].empty:
+        tables["recipes"].to_csv(os.path.join(EXPORTS_DIR, "DimRecipes.csv"), index=False)
 
     # Export calendar dimension table
     dates = pd.date_range(start="2024-01-01", end="2024-12-31")
@@ -231,7 +246,20 @@ def step_7_export_dashboard_csvs(tables: dict):
     })
     dim_calendar.to_csv(os.path.join(EXPORTS_DIR, "DimCalendar.csv"), index=False)
 
-    logger.info(f"Exported 7 Power BI star-schema tables to {EXPORTS_DIR}")
+    # Export dynamic reorder recommendations report (Task 4)
+    rop_df = analytics_res["inventory"]["reorder_points"]
+    reorder_report_cols = [
+        "InventoryID", "ItemName", "Category", "CurrentStock", "Unit",
+        "AverageDailyConsumption", "StockCoverageDays", "LeadTimeDays",
+        "CalculatedSafetyStock", "CalculatedROP", "ReorderRecommendation",
+        "ConsumptionSource"
+    ]
+    available_cols = [c for c in reorder_report_cols if c in rop_df.columns]
+    reorder_report = rop_df[available_cols].copy()
+    reorder_report.to_csv(os.path.join(EXPORTS_DIR, "ReportReorderRecommendations.csv"), index=False)
+    reorder_report.to_csv(os.path.join(REPORTS_DIR, "reorder_recommendations.csv"), index=False)
+
+    logger.info(f"Exported Power BI star-schema tables and operational reports to {EXPORTS_DIR}")
 
 
 def main():
@@ -248,7 +276,8 @@ def main():
         sql_counts = step_4_execute_sql_scripts()
         analytics_res = step_5_python_analytics(tables)
         charts = step_6_generate_charts(tables)
-        step_7_export_dashboard_csvs(tables)
+        step_7_export_dashboard_csvs(tables, analytics_res)
+
 
         elapsed = (datetime.now() - start_time).total_seconds()
         logger.info("+" + "=" * 68 + "+")

@@ -66,16 +66,24 @@ def clean_locations(df_locations: pd.DataFrame) -> pd.DataFrame:
 
 
 def clean_inventory(df_inventory: pd.DataFrame) -> pd.DataFrame:
-    """Clean and validate inventory table."""
+    """Clean and validate inventory table with Beginning and Ending valuation."""
     df = df_inventory.copy()
     df = df.drop_duplicates(subset=["InventoryID"]).reset_index(drop=True)
     
-    num_cols = ["CurrentStock", "ReorderLevel", "SafetyStock", "MaxStock", "UnitCost"]
+    num_cols = ["BeginningStock", "CurrentStock", "ReorderLevel", "SafetyStock", "MaxStock", "UnitCost"]
     for col in num_cols:
-        df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
     
-    # Feature engineering: Inventory Valuation & Stock Status
-    df["InventoryValuation"] = (df["CurrentStock"] * df["UnitCost"]).round(2)
+    # Feature engineering: Beginning, Ending, and Average Inventory Valuation
+    if "BeginningStock" in df.columns:
+        df["BeginningValuation"] = (df["BeginningStock"] * df["UnitCost"]).round(2)
+    else:
+        df["BeginningValuation"] = (df["CurrentStock"] * df["UnitCost"]).round(2)
+        
+    df["InventoryValuation"] = (df["CurrentStock"] * df["UnitCost"]).round(2)  # Ending valuation
+    df["EndingValuation"] = df["InventoryValuation"]
+    df["AverageValuation"] = ((df["BeginningValuation"] + df["EndingValuation"]) / 2.0).round(2)
     
     # Stock Status Classification
     conditions = [
@@ -87,6 +95,19 @@ def clean_inventory(df_inventory: pd.DataFrame) -> pd.DataFrame:
     
     logger.info(f"Inventory cleaned: {len(df)} inventory items")
     return df
+
+
+def clean_recipes(df_recipes: pd.DataFrame) -> pd.DataFrame:
+    """Clean and validate Bill of Materials (recipes) mapping table."""
+    df = df_recipes.copy()
+    df = df.drop_duplicates(subset=["RecipeID"]).reset_index(drop=True)
+    qty_col = "QuantityPerUnit" if "QuantityPerUnit" in df.columns else "QuantityRequired"
+    df[qty_col] = pd.to_numeric(df[qty_col], errors="coerce").fillna(0.0)
+    df = df[df[qty_col] > 0].copy()
+    logger.info(f"Recipes (BOM) cleaned: {len(df)} recipe-ingredient links")
+    return df
+
+
 
 
 def clean_orders(df_orders: pd.DataFrame) -> pd.DataFrame:
@@ -184,6 +205,7 @@ def run_data_cleaning_pipeline(
     df_locations_raw = pd.read_csv(os.path.join(raw_dir, "locations.csv"))
     df_suppliers_raw = pd.read_csv(os.path.join(raw_dir, "suppliers.csv"))
     df_inventory_raw = pd.read_csv(os.path.join(raw_dir, "inventory.csv"))
+    df_recipes_raw = pd.read_csv(os.path.join(raw_dir, "recipes.csv")) if os.path.exists(os.path.join(raw_dir, "recipes.csv")) else pd.DataFrame()
     df_orders_raw = pd.read_csv(os.path.join(raw_dir, "orders.csv"))
     df_details_raw = pd.read_csv(os.path.join(raw_dir, "order_details.csv"))
     df_waste_raw = pd.read_csv(os.path.join(raw_dir, "inventory_waste.csv"))
@@ -193,6 +215,7 @@ def run_data_cleaning_pipeline(
     locations_clean = clean_locations(df_locations_raw)
     suppliers_clean = df_suppliers_raw.drop_duplicates(subset=["SupplierID"]).copy()
     inventory_clean = clean_inventory(df_inventory_raw)
+    recipes_clean = clean_recipes(df_recipes_raw) if not df_recipes_raw.empty else pd.DataFrame()
     orders_clean = clean_orders(df_orders_raw)
     details_clean = clean_order_details(df_details_raw, products_clean)
     waste_clean = clean_waste_log(df_waste_raw)
@@ -216,6 +239,8 @@ def run_data_cleaning_pipeline(
     locations_clean.to_csv(os.path.join(processed_dir, "locations_cleaned.csv"), index=False)
     suppliers_clean.to_csv(os.path.join(processed_dir, "suppliers_cleaned.csv"), index=False)
     inventory_clean.to_csv(os.path.join(processed_dir, "inventory_cleaned.csv"), index=False)
+    if not recipes_clean.empty:
+        recipes_clean.to_csv(os.path.join(processed_dir, "recipes_cleaned.csv"), index=False)
     orders_clean.to_csv(os.path.join(processed_dir, "orders_cleaned.csv"), index=False)
     details_clean.to_csv(os.path.join(processed_dir, "order_details_cleaned.csv"), index=False)
     waste_clean.to_csv(os.path.join(processed_dir, "inventory_waste_cleaned.csv"), index=False)
@@ -231,6 +256,7 @@ def run_data_cleaning_pipeline(
         "locations": locations_clean,
         "suppliers": suppliers_clean,
         "inventory": inventory_clean,
+        "recipes": recipes_clean,
         "orders": orders_clean,
         "order_details": details_clean,
         "waste": waste_clean,

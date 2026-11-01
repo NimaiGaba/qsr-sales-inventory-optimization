@@ -8,18 +8,17 @@
 
 -- 1. High-Level Executive Sales & Profitability Summary
 SELECT 
-    COUNT(DISTINCT o.OrderID) AS Total_Orders,
-    SUM(od.Quantity) AS Total_Items_Sold,
-    ROUND(SUM(o.GrossSales), 2) AS Gross_Revenue,
-    ROUND(SUM(o.DiscountAmount), 2) AS Total_Discounts,
-    ROUND(SUM(o.NetSales), 2) AS Net_Revenue,
-    ROUND(SUM(o.TotalCost), 2) AS Total_COGS,
-    ROUND(SUM(o.GrossProfit), 2) AS Gross_Profit,
-    ROUND((SUM(o.GrossProfit) * 100.0 / SUM(o.NetSales)), 2) AS Gross_Profit_Margin_PCT,
-    ROUND(AVG(o.NetSales), 2) AS Average_Order_Value,
-    ROUND(SUM(od.Quantity) * 1.0 / COUNT(DISTINCT o.OrderID), 2) AS Items_Per_Order
-FROM orders o
-JOIN order_details od ON o.OrderID = od.OrderID;
+    (SELECT COUNT(*) FROM orders) AS Total_Orders,
+    (SELECT SUM(Quantity) FROM order_details) AS Total_Items_Sold,
+    ROUND((SELECT SUM(GrossSales) FROM orders), 2) AS Gross_Revenue,
+    ROUND((SELECT SUM(DiscountAmount) FROM orders), 2) AS Total_Discounts,
+    ROUND((SELECT SUM(NetSales) FROM orders), 2) AS Net_Revenue,
+    ROUND((SELECT SUM(TotalCost) FROM orders), 2) AS Total_COGS,
+    ROUND((SELECT SUM(GrossProfit) FROM orders), 2) AS Gross_Profit,
+    ROUND(((SELECT SUM(GrossProfit) FROM orders) * 100.0 / (SELECT SUM(NetSales) FROM orders)), 2) AS Gross_Profit_Margin_PCT,
+    ROUND((SELECT AVG(NetSales) FROM orders), 2) AS Average_Order_Value,
+    ROUND((SELECT SUM(Quantity) FROM order_details) * 1.0 / (SELECT COUNT(*) FROM orders), 2) AS Items_Per_Order;
+
 
 -- 2. Daily Average Sales Performance
 WITH DailySales AS (

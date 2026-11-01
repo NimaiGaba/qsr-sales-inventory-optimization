@@ -95,3 +95,31 @@ SELECT
 FROM inventory
 WHERE CurrentStock <= ReorderLevel
 ORDER BY Estimated_Purchase_Cost_USD DESC;
+
+-- E7. Standard Inventory Turnover Ratio & Days Sales of Inventory (DSI)
+-- Standard Formula:
+-- Average Inventory Value = (Beginning Inventory Value + Ending Inventory Value) / 2
+-- Inventory Turnover Ratio = Annual Cost of Goods Sold (COGS) / Average Inventory Value
+-- Days to Turn Inventory = 366 / Inventory Turnover Ratio
+WITH InvValuation AS (
+    SELECT 
+        ROUND(SUM(COALESCE(BeginningStock, CurrentStock) * UnitCost), 2) AS Beginning_Inventory_Value,
+        ROUND(SUM(CurrentStock * UnitCost), 2) AS Ending_Inventory_Value,
+        ROUND((SUM(COALESCE(BeginningStock, CurrentStock) * UnitCost) + SUM(CurrentStock * UnitCost)) / 2.0, 2) AS Average_Inventory_Value
+    FROM inventory
+),
+CogsValuation AS (
+    SELECT 
+        ROUND(SUM(TotalCost), 2) AS Annual_COGS
+    FROM orders
+)
+SELECT 
+    c.Annual_COGS,
+    i.Beginning_Inventory_Value,
+    i.Ending_Inventory_Value,
+    i.Average_Inventory_Value,
+    ROUND(c.Annual_COGS / i.Average_Inventory_Value, 2) AS Inventory_Turnover_Ratio,
+    ROUND(366.0 / (c.Annual_COGS / i.Average_Inventory_Value), 1) AS Days_Sales_of_Inventory_DSI
+FROM InvValuation i
+CROSS JOIN CogsValuation c;
+
